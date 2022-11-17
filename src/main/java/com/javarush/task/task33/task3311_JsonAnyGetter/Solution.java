@@ -1,4 +1,4 @@
-package com.javarush.task.task33.task3311;
+package com.javarush.task.task33.task3311_JsonAnyGetter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

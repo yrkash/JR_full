@@ -1,4 +1,4 @@
-package com.javarush.task.task33.task3301;
+package com.javarush.task.task33.task3301_json_serialization;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.databind.ObjectMapper;
