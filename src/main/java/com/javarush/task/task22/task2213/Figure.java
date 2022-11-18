@@ -1,6 +1,7 @@
 package com.javarush.task.task22.task2213;
 
 
+
 public class Figure {
     private int x;
     private int y;
@@ -18,6 +19,14 @@ public class Figure {
         return matrix;
     }
 
+    public void left() {}
+    public void right() {}
+    public void down() {}
+    public void up() {}
+    public void rotate() {}
+    public void downMaximum() {}
+    public boolean isCurrentPositionAvailable() {return true;}
+    public void landed() {}
     public Figure(int x, int y, int[][] matrix) {
         this.x = x;
         this.y = y;
