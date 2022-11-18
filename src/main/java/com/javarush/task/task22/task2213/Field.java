@@ -1,8 +1,6 @@
 package com.javarush.task.task22.task2213;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Класс Field описывает "поле клеток" игры Тетрис
@@ -107,50 +105,28 @@ public class Field {
      * Удаляем заполненные линии
      */
     public void removeFullLines() {
-        //Например так:
         //Создаем список для хранения линий
-        //Копируем все неполные линии в список.
-        //Добавляем недостающие строки в начало списка.
-        //Преобразуем список обратно в матрицу
+        ArrayList<int[]> lines = new ArrayList<int[]>();
 
-        ArrayList<int[]> list = new ArrayList();
-        int i;
-        for (i = 0; i < height; i++) {
+        //Копируем все непустые линии в список.
+        for (int i = 0; i < height; i++) {
+            //подсчитываем количество единиц в строке - просто суммируем все ее значения
             int count = 0;
             for (int j = 0; j < width; j++) {
                 count += matrix[i][j];
             }
-            if (count < width) {
-                list.add(matrix[i]);
-            }
 
+            //Если сумма строки не равна ее ширине - добавляем в список
+            if (count != width)
+                lines.add(matrix[i]);
         }
 
-        while (list.size() < height) {
-            list.add(0, new int[width]);
+        //Добавляем недостающие строки в начало списка.
+        while (lines.size() < height) {
+            lines.add(0, new int[width]);
         }
 
-        matrix = list.toArray(new int[height][width]);
-
+        //Преобразуем список обратно в матрицу
+        matrix = lines.toArray(new int[height][width]);
     }
-
-    public static void main(String[] args) {
-        Field field = new Field(5,5);
-        field.matrix = new int[][]{
-                {0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0},
-                {0, 0, 1, 0, 0},
-                {1, 1, 1, 1, 1},
-                {0, 0, 0, 1, 0},
-        };
-        field.removeFullLines();
-        for (int i = 0; i <field.matrix.length ; i++) {
-            for (int j = 0; j <field.matrix[i].length ; j++) {
-                System.out.print(field.matrix[i][j]);
-            }
-            System.out.println();
-        }
-
-    }
-
 }
