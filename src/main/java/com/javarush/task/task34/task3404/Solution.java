@@ -14,36 +14,87 @@ import java.util.regex.Pattern;
 public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
+//        solution.recurse("2.5432 + 1", 0);
         solution.recurse("sin(2*(-5+1.5*4)+28)", 0); // Expected output: 0.5 6
+//        solution.recurse("(6+10-4)/(1+1*2)+1", 0); // Expected output: 0.5 6
+//        solution.recurse("-cos(180)^2", 0); // Expected output: 0.5 6
+
+        /*
+        Double d = new Double(expression);
+        NumberFormat numberFormat = NumberFormat.getNumberInstance(Locale.ENGLISH);
+        numberFormat.setRoundingMode(RoundingMode.HALF_EVEN);
+        DecimalFormat df = (DecimalFormat) numberFormat;
+        df.applyPattern("#.##");
+        String stringWeNeed = df.format(d);
+        */
+
     }
 
     public void recurse(final String expression, int countOperation) {
+        Set<String> binaryOperationSet =
+                new HashSet<>(Arrays.asList("+","-","*","/","^"));
+        Set<String> unaryOperationSet = new HashSet<>(Arrays.asList("s","c","t"));
+        if (countOperation == 0) {
+            try {
+                Double result = Double.parseDouble(expression);
+                String stringWeNeed = resultToString(result);
+                System.out.println(stringWeNeed + " " + countOperation);
+                return;
+            } catch (NumberFormatException e) {}
 
-        String prepareStatement = prepareStatement(expression);
+            String prepareStatement = prepareStatement(expression);
+            List<String> rpn = makeRPN(prepareStatement);
+            System.out.println(rpn);
+            boolean hasMakingCalcInThisStep = false;
+            StringBuilder builder = new StringBuilder();
+            for (int i = 0; i < rpn.size() - 1; i++) {
+                if (unaryOperationSet.contains(rpn.get(i + 1)) && !hasMakingCalcInThisStep) {
+                    hasMakingCalcInThisStep = true;
+                    double currentCalc = makeFunction(rpn.get(i + 1), Double.parseDouble(rpn.get(i)));
+                    i++;
+                    builder.append(resultToString(currentCalc) + " ");
+                } else {
+                    if (binaryOperationSet.contains(rpn.get(i + 1)) && !hasMakingCalcInThisStep) {
+                        hasMakingCalcInThisStep = true;
+                        StringBuilder temp = new StringBuilder(builder);
+                        String firstOperand = temp.reverse().toString().trim().split(" ")[0];
+                        String secondOperand = rpn.get(i);
+                        String operation = rpn.get(i + 1);
+                        double currentCalc =  Double.parseDouble(firstOperand) - Double.parseDouble(secondOperand);
+                        i++;
+                        builder.delete(builder.length() - firstOperand.length() - 1, builder.length());
+                        builder.append(currentCalc + " ");
+                    } else {
+                        builder.append(rpn.get(i) + " ");
+                    }
+                }
+            }
+            if (builder.toString().matches("[+\\-*/^cst]+")) builder.append(rpn.get(rpn.size() - 1));
+            System.out.println(builder);
+
+        }
+
+
         Stack<Character> operation = new Stack<>();
         List<String> reversePolishNotation = new LinkedList<>();
         //implement
-        System.out.println(prepareStatement(prepareStatement));
-        makeRPN(prepareStatement);
     }
 
-    public String makeRPN (String expression) {
+    public String resultToString (double result) {
+        NumberFormat numberFormat = NumberFormat.getNumberInstance(Locale.ENGLISH);
+        numberFormat.setRoundingMode(RoundingMode.HALF_EVEN);
+        DecimalFormat df = (DecimalFormat) numberFormat;
+        df.applyPattern("#.##");
+        return df.format(result);
+    }
+
+    public List<String> makeRPN (String expression) {
         Set<String> operationSet =
                 new HashSet<>(Arrays.asList("+","-","*","/","^","s","c","t"));
-        int countOfDigit = 0;
-        int countOfNonDigit = 0;
         Stack<String> operations = new Stack<>();
         List<String> reversePolishNotation = new LinkedList<>();
 
-
-        Pattern patternDigit = Pattern.compile("(\\d+)?(\\.\\d+)?");
-        Pattern patternOther = Pattern.compile("\\D");
-
-        /*Matcher matcherDigit = patternDigit.matcher(expression);
-        while (matcherDigit.find()) {
-            if (matcherDigit.group().length() > 0) countOfDigit++;
-        }
-
+        /*
         Matcher matcherOther = patternOther.matcher(expression);
         while (matcherOther.find()) {
             if (matcherOther.group().length() > 0 && !matcherOther.group().equals("."))
@@ -59,6 +110,7 @@ public class Solution {
                 expressionBuilder.deleteCharAt(0);
             }
             if (Character.isDigit(expression.charAt(i))) {
+                Pattern patternDigit = Pattern.compile("(\\d+)?(\\.\\d+)?");
                 Matcher matcherDigit = patternDigit.matcher(expressionBuilder.toString());
                 if (matcherDigit.find()) {
                     tokenList.add(matcherDigit.group());
@@ -68,44 +120,53 @@ public class Solution {
                 }
             }
         }
-        System.out.println(tokenList);
+//        System.out.println(tokenList);
 
+        // Готовим обратную польскую последовтельность
         for (String token: tokenList) {
-            System.out.println("This is " + token);
             if (operationSet.contains(token)) {
                 if (operations.empty()) {
                     operations.push(token);
-                    System.out.println("Token " + token  + " add to stack");
                 } else {
                     String prevToken = operations.peek();
                     if (getPriority(prevToken) >= getPriority(token)) {
                         operations.pop();
-                        System.out.println("Token " + prevToken  + " pop from stack");
-
                         reversePolishNotation.add(prevToken);
-                        System.out.println("Token " + prevToken  + " add to RPN");
-
                         operations.push(token);
-                        System.out.println("Token " + token  + " add to stack");
                     } else {
                         operations.push(token);
-                        System.out.println("Token " + token  + " add to stack");
                     }
                 }
+                continue;
             }
             if (token.matches("(\\d+)?(\\.\\d+)?")) {
                 reversePolishNotation.add(token);
-                System.out.println("Token " + token  + " add to RPN");
+                continue;
             }
             if (token.equals("(")) {
                 operations.push(token);
-                System.out.println("Token " + token  + " add to stack");
+                continue;
+            }
+            if (token.equals(")")) {
+                String prevToken = operations.peek();
+                // если сразу перед ")" в стеке "("
+                if (prevToken.equals("(")) {
+                    operations.pop();
+                    continue;
+                }
+                while (!prevToken.equals("(")) {
+                    prevToken = operations.pop();
+                    if (!prevToken.equals("(")) reversePolishNotation.add(prevToken);
+                }
             }
         }
-        System.out.println(operations);
-        System.out.println(reversePolishNotation);
-        return null;
+        while (!operations.empty()) {
+            String token = operations.pop();
+            if (!token.equals("(")) reversePolishNotation.add(token);
+        }
+        return reversePolishNotation;
     }
+
     public String prepareStatement (String expression) {
         //Заменяем все функции sin на одиночный аналог
         String workWith = expression.replaceAll("(S|s)(I|i)(N|n)", "s");
@@ -157,7 +218,7 @@ public class Solution {
         switch (s) {
             case "+":
             case "-":
-                 return 1;
+                return 1;
             case "*":
             case "/":
                 return 2;
