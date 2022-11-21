@@ -28,9 +28,11 @@ public class Solution {
     }
 
     public String makeRPN (String expression) {
+        Set<String> operationSet =
+                new HashSet<>(Arrays.asList("+","-","*","/","^","s","c","t"));
         int countOfDigit = 0;
         int countOfNonDigit = 0;
-        Stack<String> operation = new Stack<>();
+        Stack<String> operations = new Stack<>();
         List<String> reversePolishNotation = new LinkedList<>();
 
 
@@ -49,25 +51,59 @@ public class Solution {
         }*/
 
         // Получаем список всех лексем из выражения для RPN
-        List<String> expressionList = new ArrayList<>();
+        List<String> tokenList = new ArrayList<>();
         StringBuilder expressionBuilder = new StringBuilder(expression);
         for (int i = 0; i < expression.length(); i++) {
             if (!Character.isDigit(expression.charAt(i)) && expression.charAt(i) != '.') {
-                expressionList.add(String.valueOf(expression.charAt(i)));
+                tokenList.add(String.valueOf(expression.charAt(i)));
                 expressionBuilder.deleteCharAt(0);
             }
             if (Character.isDigit(expression.charAt(i))) {
                 Matcher matcherDigit = patternDigit.matcher(expressionBuilder.toString());
                 if (matcherDigit.find()) {
-                    expressionList.add(matcherDigit.group());
+                    tokenList.add(matcherDigit.group());
                     int currentDigitLength = matcherDigit.group().length();
                     expressionBuilder.delete(0, currentDigitLength);
                     if (currentDigitLength > 1) i += currentDigitLength - 1;
                 }
             }
         }
-        System.out.println(expressionList);
+        System.out.println(tokenList);
 
+        for (String token: tokenList) {
+            System.out.println("This is " + token);
+            if (operationSet.contains(token)) {
+                if (operations.empty()) {
+                    operations.push(token);
+                    System.out.println("Token " + token  + " add to stack");
+                } else {
+                    String prevToken = operations.peek();
+                    if (getPriority(prevToken) >= getPriority(token)) {
+                        operations.pop();
+                        System.out.println("Token " + prevToken  + " pop from stack");
+
+                        reversePolishNotation.add(prevToken);
+                        System.out.println("Token " + prevToken  + " add to RPN");
+
+                        operations.push(token);
+                        System.out.println("Token " + token  + " add to stack");
+                    } else {
+                        operations.push(token);
+                        System.out.println("Token " + token  + " add to stack");
+                    }
+                }
+            }
+            if (token.matches("(\\d+)?(\\.\\d+)?")) {
+                reversePolishNotation.add(token);
+                System.out.println("Token " + token  + " add to RPN");
+            }
+            if (token.equals("(")) {
+                operations.push(token);
+                System.out.println("Token " + token  + " add to stack");
+            }
+        }
+        System.out.println(operations);
+        System.out.println(reversePolishNotation);
         return null;
     }
     public String prepareStatement (String expression) {
