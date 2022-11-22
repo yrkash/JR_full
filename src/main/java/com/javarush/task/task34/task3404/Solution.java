@@ -14,10 +14,28 @@ import java.util.regex.Pattern;
 public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
-//        solution.recurse("2.5432 + 1", 0);
-        solution.recurse("sin(2*(-5+1.5*4)+28)", 0); // Expected output: 0.5 6
-//        solution.recurse("(6+10-4)/(1+1*2)+1", 0); // Expected output: 0.5 6
-//        solution.recurse("-cos(180)^2", 0); // Expected output: 0.5 6
+
+
+        solution.recurse("tan(45)", 0);  System.out.println("1 1 - expected output");
+        solution.recurse("tan(-45)", 0);  System.out.println("-1 2 - expected output");
+        solution.recurse("0.305", 0);  System.out.println("0.3 0 - expected output");
+        solution.recurse("0.3051", 0);  System.out.println("0.31 - expected output");
+        solution.recurse("(0.3051)", 0);  System.out.println("0.31 - expected output");
+        solution.recurse("1+(1+(1+1)*(1+1))*(1+1)+1", 0);  System.out.println("12 8 - expected output");
+        solution.recurse("tan(44+sin(89-cos(180)^2))", 0);  System.out.println("1 6 - expected output");
+        solution.recurse("-2+(-2+(-2)-2*(2+2))", 0);  System.out.println("-14 8 - expected output");
+        solution.recurse("sin(80+(2+(1+1))*(1+1)+2)", 0);  System.out.println("1 7 - expected output");
+        solution.recurse("1+4/2/2+2^2+2*2-2^(2-1+1)", 0);  System.out.println("6 11 - expected output");
+        solution.recurse("10-2^(2-1+1)", 0);  System.out.println("6 4 - expected output");
+        solution.recurse("2^10+2^(5+5)", 0);  System.out.println("2048 4 - expected output");
+        solution.recurse("1.01+(2.02-1+1/0.5*1.02)/0.1+0.25+41.1", 0);  System.out.println("72.96 8 - expected output");
+        solution.recurse("0.000025+0.000012", 0);  System.out.println("0 1 - expected output");
+        solution.recurse("-2-(-2-1-(-2)-(-2)-(-2-2-(-2)-2)-2-2)", 0);  System.out.println("-3 16 - expected output");
+
+        solution.recurse("cos(3 + 19*3)", 0);  System.out.println("0.5 3 - expected output");
+
+
+
 
         /*
         Double d = new Double(expression);
@@ -31,54 +49,99 @@ public class Solution {
     }
 
     public void recurse(final String expression, int countOperation) {
-        Set<String> binaryOperationSet =
-                new HashSet<>(Arrays.asList("+","-","*","/","^"));
-        Set<String> unaryOperationSet = new HashSet<>(Arrays.asList("s","c","t"));
-        if (countOperation == 0) {
+
+        if (expression.matches("^(-)?(\\d+)(\\.\\d+)?$")) {
             try {
-                Double result = Double.parseDouble(expression);
-                String stringWeNeed = resultToString(result);
-                System.out.println(stringWeNeed + " " + countOperation);
+                System.out.println(resultToString(Double.parseDouble(expression))+ " " + countOperation);
                 return;
-            } catch (NumberFormatException e) {}
+            } catch (NumberFormatException ignore) {
 
-            String prepareStatement = prepareStatement(expression);
+            }
 
-            List<String> rpn = makeRPN(prepareStatement);
-            List<String> buffList = new LinkedList<>();
-            System.out.println(rpn);
-            boolean hasMakingCalcInThisStep = false;
-            StringBuilder builder = new StringBuilder();
+        } else {
+            if (countOperation == 0) {
+                try {
+                    Double result = Double.parseDouble(expression);
+                    String stringWeNeed = resultToString(result);
+                    System.out.println(stringWeNeed + " " + countOperation);
+                    return;
+                } catch (NumberFormatException ignore) {
+                    //ignore
+                }
+                String prepareStatement = prepareStatement(expression);
+                List<String> rpn = makeRPN(prepareStatement);
+                String currentResult = makeOperation(rpn);
+                countOperation++;
+                recurse(currentResult, countOperation);
+            }  else {
+                String[] tokens = expression.split(" ");
+                List <String> rpn = new LinkedList<>();
+                for (String token : tokens) {
+                    rpn.add(token);
+                }
+                String currentResult = makeOperation(rpn);
+                countOperation++;
 
-            for (int i = 0; i < rpn.size(); i++) {
-                if (unaryOperationSet.contains(rpn.get(i)) && !hasMakingCalcInThisStep) {
+                recurse(currentResult, countOperation);
+            }
+        }
+    }
+
+    public String makeOperation(List<String> rpn) {
+
+        Set<String> binaryOperationSet = new HashSet<>(Arrays.asList("+","-","*","/","^"));
+        Set<String> unaryOperationSet = new HashSet<>(Arrays.asList("s","c","t"));
+
+        List<String> buffList = new LinkedList<>();
+        boolean hasMakingCalcInThisStep = false;
+
+        for (int i = 0; i < rpn.size(); i++) {
+            if (unaryOperationSet.contains(rpn.get(i)) && !hasMakingCalcInThisStep) {
+                hasMakingCalcInThisStep = true;
+
+                double currentCalc = makeFunction(rpn.get(i), Double.parseDouble(rpn.get(i - 1)));
+                buffList.remove(buffList.size() - 1);
+                buffList.add(resultToString(currentCalc));
+            } else {
+                if (binaryOperationSet.contains(rpn.get(i)) && !hasMakingCalcInThisStep) {
                     hasMakingCalcInThisStep = true;
-
-                    double currentCalc = makeFunction(rpn.get(i), Double.parseDouble(rpn.get(i - 1)));
+                    String firstOperand = rpn.get(i - 2);
+                    String secondOperand = rpn.get(i - 1);
+                    String operation = rpn.get(i);
+                    double currentCalc = 0;
+                    switch (operation) {
+                        case "+":
+                            currentCalc =  Double.parseDouble(firstOperand) + Double.parseDouble(secondOperand);
+                            break;
+                        case "-":
+                            currentCalc =  Double.parseDouble(firstOperand) - Double.parseDouble(secondOperand);
+                            break;
+                        case "*":
+                            currentCalc =  Double.parseDouble(firstOperand) * Double.parseDouble(secondOperand);
+                            break;
+                        case "/":
+                            currentCalc =  Double.parseDouble(firstOperand) / Double.parseDouble(secondOperand);
+                            break;
+                        case "^":
+                            currentCalc =  Math.pow(Double.parseDouble(firstOperand), Double.parseDouble(secondOperand));
+                            break;
+                        default:
+                            currentCalc = 0.0;
+                            break;
+                    }
+                    buffList.remove(buffList.size() - 2);
                     buffList.remove(buffList.size() - 1);
                     buffList.add(resultToString(currentCalc));
                 } else {
-                    if (binaryOperationSet.contains(rpn.get(i)) && !hasMakingCalcInThisStep) {
-                        hasMakingCalcInThisStep = true;
-                        String firstOperand = rpn.get(i - 2);
-                        String secondOperand = rpn.get(i - 1);
-                        String operation = rpn.get(i);
-                        double currentCalc =  Double.parseDouble(firstOperand) - Double.parseDouble(secondOperand);
-                        buffList.remove(buffList.size() - 2);
-                        buffList.remove(buffList.size() - 1);
-                        buffList.add(resultToString(currentCalc));
-                    } else {
-                        buffList.add(rpn.get(i));
-                    }
+                    buffList.add(rpn.get(i));
                 }
             }
-            System.out.println(buffList);
         }
-
-
-        Stack<Character> operation = new Stack<>();
-        List<String> reversePolishNotation = new LinkedList<>();
-        //implement
+        StringBuilder result = new StringBuilder();
+        for (String token: buffList) {
+            result.append(token + " ");
+        }
+        return result.toString().trim();
     }
 
     public String resultToString (double result) {
@@ -169,8 +232,10 @@ public class Solution {
     }
 
     public String prepareStatement (String expression) {
+        //убираем все пробелы
+        String workWith = expression.replaceAll(" ","");
         //Заменяем все функции sin на одиночный аналог
-        String workWith = expression.replaceAll("(S|s)(I|i)(N|n)", "s");
+        workWith = workWith.replaceAll("(S|s)(I|i)(N|n)", "s");
         //Заменяем все функции cos на одиночный аналог
         workWith = workWith.replaceAll("[Cc][Oo][Ss]", "c");
         //Заменяем все функции tan на одиночный аналог
@@ -193,8 +258,7 @@ public class Solution {
         }
         workWith = workWithBuilder.toString().replaceAll("@","0-");
         workWith = workWith.replaceAll("%","0+");
-        //убираем все пробелы
-        workWith = workWith.replaceAll(" ","");
+
         return workWith;
     }
 
