@@ -43,35 +43,36 @@ public class Solution {
             } catch (NumberFormatException e) {}
 
             String prepareStatement = prepareStatement(expression);
+
             List<String> rpn = makeRPN(prepareStatement);
+            List<String> buffList = new LinkedList<>();
             System.out.println(rpn);
             boolean hasMakingCalcInThisStep = false;
             StringBuilder builder = new StringBuilder();
-            for (int i = 0; i < rpn.size() - 1; i++) {
-                if (unaryOperationSet.contains(rpn.get(i + 1)) && !hasMakingCalcInThisStep) {
+
+            for (int i = 0; i < rpn.size(); i++) {
+                if (unaryOperationSet.contains(rpn.get(i)) && !hasMakingCalcInThisStep) {
                     hasMakingCalcInThisStep = true;
-                    double currentCalc = makeFunction(rpn.get(i + 1), Double.parseDouble(rpn.get(i)));
-                    i++;
-                    builder.append(resultToString(currentCalc) + " ");
+
+                    double currentCalc = makeFunction(rpn.get(i), Double.parseDouble(rpn.get(i - 1)));
+                    buffList.remove(buffList.size() - 1);
+                    buffList.add(resultToString(currentCalc));
                 } else {
-                    if (binaryOperationSet.contains(rpn.get(i + 1)) && !hasMakingCalcInThisStep) {
+                    if (binaryOperationSet.contains(rpn.get(i)) && !hasMakingCalcInThisStep) {
                         hasMakingCalcInThisStep = true;
-                        StringBuilder temp = new StringBuilder(builder);
-                        String firstOperand = temp.reverse().toString().trim().split(" ")[0];
-                        String secondOperand = rpn.get(i);
-                        String operation = rpn.get(i + 1);
+                        String firstOperand = rpn.get(i - 2);
+                        String secondOperand = rpn.get(i - 1);
+                        String operation = rpn.get(i);
                         double currentCalc =  Double.parseDouble(firstOperand) - Double.parseDouble(secondOperand);
-                        i++;
-                        builder.delete(builder.length() - firstOperand.length() - 1, builder.length());
-                        builder.append(currentCalc + " ");
+                        buffList.remove(buffList.size() - 2);
+                        buffList.remove(buffList.size() - 1);
+                        buffList.add(resultToString(currentCalc));
                     } else {
-                        builder.append(rpn.get(i) + " ");
+                        buffList.add(rpn.get(i));
                     }
                 }
             }
-            if (builder.toString().matches("[+\\-*/^cst]+")) builder.append(rpn.get(rpn.size() - 1));
-            System.out.println(builder);
-
+            System.out.println(buffList);
         }
 
 
