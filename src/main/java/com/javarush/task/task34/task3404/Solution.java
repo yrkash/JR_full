@@ -30,21 +30,8 @@ public class Solution {
         solution.recurse("2^10+2^(5+5)", 0);  System.out.println("2048 4 - expected output");
         solution.recurse("1.01+(2.02-1+1/0.5*1.02)/0.1+0.25+41.1", 0);  System.out.println("72.96 8 - expected output");
         solution.recurse("0.000025+0.000012", 0);  System.out.println("0 1 - expected output");
-        solution.recurse("-2-(-2-1-(-2)-(-2)-(-2-2-(-2)-2)-2-2)", 0);  System.out.println("-3 16 - expected output");
-
         solution.recurse("cos(3 + 19*3)", 0);  System.out.println("0.5 3 - expected output");
 
-
-
-
-        /*
-        Double d = new Double(expression);
-        NumberFormat numberFormat = NumberFormat.getNumberInstance(Locale.ENGLISH);
-        numberFormat.setRoundingMode(RoundingMode.HALF_EVEN);
-        DecimalFormat df = (DecimalFormat) numberFormat;
-        df.applyPattern("#.##");
-        String stringWeNeed = df.format(d);
-        */
 
     }
 
