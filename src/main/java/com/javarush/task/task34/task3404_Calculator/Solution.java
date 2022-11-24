@@ -15,6 +15,10 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
+        System.out.println(solution.prepareStatement("sin(2*(-5+1.5*4)+28)"));
+        System.out.println(solution.makeRPN(solution.prepareStatement("sin(2*(-5+1.5*4)+28)")));
+
+
 
         solution.recurse("tan(45)", 0);  System.out.println("1 1 - expected output");
         solution.recurse("tan(-45)", 0);  System.out.println("-1 2 - expected output");
@@ -34,7 +38,7 @@ public class Solution {
 
 
     }
-
+    //Основная функция. Рекурсивно вызываем функцию makeOperation, пока есть "что вычислять".
     public void recurse(final String expression, int countOperation) {
 
         if (expression.matches("^(-)?(\\d+)(\\.\\d+)?$")) {
@@ -73,7 +77,7 @@ public class Solution {
             }
         }
     }
-
+    //На вход получаем обратную полускую запись и выполняем одно вычисление. Идея проста: идем слева по выражению, как только видим операцию - выполняем.
     public String makeOperation(List<String> rpn) {
 
         Set<String> binaryOperationSet = new HashSet<>(Arrays.asList("+","-","*","/","^"));
@@ -131,14 +135,9 @@ public class Solution {
         return result.toString().trim();
     }
 
-    public String resultToString (double result) {
-        NumberFormat numberFormat = NumberFormat.getNumberInstance(Locale.ENGLISH);
-        numberFormat.setRoundingMode(RoundingMode.HALF_EVEN);
-        DecimalFormat df = (DecimalFormat) numberFormat;
-        df.applyPattern("#.##");
-        return df.format(result);
-    }
-
+    // Подготовка Обратной Польской записи.
+    // Стек для хранения операций дополнил LinkedList<String>() для формирования итоговой записи.
+    // Алгоритм подсмотрел здесь https://habr.com/ru/post/282379/
     public List<String> makeRPN (String expression) {
         Set<String> operationSet =
                 new HashSet<>(Arrays.asList("+","-","*","/","^","s","c","t"));
@@ -164,7 +163,7 @@ public class Solution {
                 }
             }
         }
-        // Готовим обратную польскую последовтельность
+        // Готовим обратную польскую запись
         for (String token: tokenList) {
             if (operationSet.contains(token)) {
                 if (operations.empty()) {
@@ -209,6 +208,7 @@ public class Solution {
         return reversePolishNotation;
     }
 
+    //Подготовка выражения для Обратной польской последовательности (убираем пробелы, унарные +/-). Для выражения из задания на данном этапе я получил s(2*(0-5+1.5*4)+28)
     public String prepareStatement (String expression) {
         //убираем все пробелы
         String workWith = expression.replaceAll(" ","");
@@ -239,7 +239,15 @@ public class Solution {
 
         return workWith;
     }
-
+    // Преобразование полученного результата в формат, требуемый по условию.
+    public String resultToString (double result) {
+        NumberFormat numberFormat = NumberFormat.getNumberInstance(Locale.ENGLISH);
+        numberFormat.setRoundingMode(RoundingMode.HALF_EVEN);
+        DecimalFormat df = (DecimalFormat) numberFormat;
+        df.applyPattern("#.##");
+        return df.format(result);
+    }
+    // Вычисление тригонометрических функций
     public double makeFunction(String s, double first) {
         switch (s) {
             case "s": {
@@ -256,7 +264,7 @@ public class Solution {
                 return -1;
         }
     }
-
+    // Получение приоритета операций (самый большой у тригонометрических функций)
     public int getPriority(String s) {
         switch (s) {
             case "+":
