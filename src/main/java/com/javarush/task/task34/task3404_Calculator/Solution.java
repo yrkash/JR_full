@@ -1,4 +1,4 @@
-package com.javarush.task.task34.task3404;
+package com.javarush.task.task34.task3404_Calculator;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
@@ -145,13 +145,6 @@ public class Solution {
         Stack<String> operations = new Stack<>();
         List<String> reversePolishNotation = new LinkedList<>();
 
-        /*
-        Matcher matcherOther = patternOther.matcher(expression);
-        while (matcherOther.find()) {
-            if (matcherOther.group().length() > 0 && !matcherOther.group().equals("."))
-                countOfNonDigit++;
-        }*/
-
         // Получаем список всех лексем из выражения для RPN
         List<String> tokenList = new ArrayList<>();
         StringBuilder expressionBuilder = new StringBuilder(expression);
@@ -171,8 +164,6 @@ public class Solution {
                 }
             }
         }
-//        System.out.println(tokenList);
-
         // Готовим обратную польскую последовтельность
         for (String token: tokenList) {
             if (operationSet.contains(token)) {

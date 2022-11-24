@@ -1,4 +1,4 @@
-package com.javarush.task.task34.task3405;
+package com.javarush.task.task34.task3405_SoftReference;
 
 import java.lang.ref.SoftReference;
 import java.util.ArrayList;

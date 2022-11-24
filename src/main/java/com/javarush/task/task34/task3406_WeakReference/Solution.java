@@ -1,4 +1,4 @@
-package com.javarush.task.task34.task3406;
+package com.javarush.task.task34.task3406_WeakReference;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
