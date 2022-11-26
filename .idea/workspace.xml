@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="221115 home">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3309_DOM/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3309_DOM/Second.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Calculator with comments for JR">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3707/HashMapReflectionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3707/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3707/AmigoSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3707/AmigoSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="test" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="75f4dcbc94012b23b67cc7ba66c3fde18850f4f0" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -36,36 +44,52 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Laptop/IdeaProjects/JR_full/src/main/java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Laptop/IdeaProjects/JR_full/src/main/java/com/javarush/task/task34&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laptop/IdeaProjects/Javarush/Shildt_Threads&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javarush.task.task34.task3408" />
       <recent name="com.javarush.task.task33.task3311" />
       <recent name="com.javarush.task.task33.task3305" />
       <recent name="com.javarush.task.task22.task2213" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop\IdeaProjects\JR_full\src\main\java\com\javarush\task\task34\task3412" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.javarush.task.task33.task3309" />
-      <recent name="com.javarush.task.task33.task3311" />
-      <recent name="com.javarush.task.task33.task3305" />
-      <recent name="com.javarush.task.task33.task3304" />
+      <recent name="com.javarush.task.task34.task3412" />
+      <recent name="com.javarush.task.task34.task3409" />
+      <recent name="com.javarush.task.task34.task3408" />
+      <recent name="com.javarush.task.task34.task3407" />
+      <recent name="com.javarush.task.task34.task3404_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.javarush.task.task33.task3308.Solution">
-    <configuration name="com.javarush.task.task33.task3305.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3305.Solution" />
+  <component name="RunManager" selected="Application.com.javarush.task.task37.task3707_HashSet_Serialization.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3707_HashSet_Serialization.Solution" />
       <module name="JR_full" />
+      <option name="VM_PARAMETERS" value="--add-opens java.base/java.util=ALL-UNNAMED " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task33.task3305.*" />
+          <option name="PATTERN" value="com.javarush.task.task37.task3707_HashSet_Serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task33.task3308.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3308.Solution" />
+    <configuration name="com.javarush.task.task34.task3404_Calculator.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task34.task3404_Calculator.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task33.task3308.*" />
+          <option name="PATTERN" value="com.javarush.task.task34.task3404_Calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task33.task3309_1.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3309_1.Solution" />
+    <configuration name="com.javarush.task.task34.task3407.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task34.task3407.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task33.task3309_1.*" />
+          <option name="PATTERN" value="com.javarush.task.task34.task3407.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task33.task3309_DOM.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3309_DOM.Solution" />
+    <configuration name="com.javarush.task.task34.task3408_Reflection.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task34.task3408_Reflection.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task33.task3309_1.*" />
+          <option name="PATTERN" value="com.javarush.task.task34.task3408_Reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task33.task3311.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3311.Solution" />
+    <configuration name="com.javarush.task.task34.task3409_Logger.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task34.task3409_Logger.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task33.task3311.*" />
+          <option name="PATTERN" value="com.javarush.task.task34.task3409_Logger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,13 +149,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.com.javarush.task.task37.task3707_HashSet_Serialization.Solution" />
+      <item itemvalue="Application.com.javarush.task.task34.task3404_Calculator.Solution" />
+      <item itemvalue="Application.com.javarush.task.task34.task3407.Solution" />
+      <item itemvalue="Application.com.javarush.task.task34.task3408_Reflection.Solution" />
+      <item itemvalue="Application.com.javarush.task.task34.task3409_Logger.Solution" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.javarush.task.task33.task3308.Solution" />
-        <item itemvalue="Application.com.javarush.task.task33.task3309_DOM.Solution" />
-        <item itemvalue="Application.com.javarush.task.task33.task3309_1.Solution" />
-        <item itemvalue="Application.com.javarush.task.task33.task3311.Solution" />
-        <item itemvalue="Application.com.javarush.task.task33.task3305.Solution" />
+        <item itemvalue="Application.com.javarush.task.task37.task3707_HashSet_Serialization.Solution" />
+        <item itemvalue="Application.com.javarush.task.task34.task3404_Calculator.Solution" />
+        <item itemvalue="Application.com.javarush.task.task34.task3409_Logger.Solution" />
+        <item itemvalue="Application.com.javarush.task.task34.task3408_Reflection.Solution" />
+        <item itemvalue="Application.com.javarush.task.task34.task3407.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +177,13 @@
       <workItem from="1668352735248" duration="7005000" />
       <workItem from="1668629159060" duration="2629000" />
       <workItem from="1668695868618" duration="8461000" />
+      <workItem from="1669130063055" duration="11075000" />
+      <workItem from="1669215595598" duration="5503000" />
+      <workItem from="1669302165366" duration="6075000" />
+      <workItem from="1669319158706" duration="5232000" />
+      <workItem from="1669386660392" duration="3118000" />
+      <workItem from="1669449907802" duration="2000000" />
+      <workItem from="1669479683081" duration="8475000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit.&#10;Start issue Tetris on 32 level">
       <created>1668353621489</created>
@@ -161,7 +199,35 @@
       <option name="project" value="LOCAL" />
       <updated>1668460633898</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Calculator is done.">
+      <created>1669135432438</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669135432438</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge commit">
+      <created>1669142545202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669142545202</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Logger, Soft&amp; WeakReference">
+      <created>1669321183699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669321183699</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Calculator with comments for JR">
+      <created>1669324379805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669324379805</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +238,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -181,6 +259,46 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit.&#10;Start issue Tetris on 32 level" />
     <MESSAGE value="221115 home" />
-    <option name="LAST_COMMIT_MESSAGE" value="221115 home" />
+    <MESSAGE value="Calculator is done." />
+    <MESSAGE value="Merge commit" />
+    <MESSAGE value="Logger, Soft&amp; WeakReference" />
+    <MESSAGE value="Calculator with comments for JR" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator with comments for JR" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3404_Calculator/Solution.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3404_Calculator/Solution.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3404_Calculator/Solution.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3707/AmigoSet.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3707/AmigoSet.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3707/AmigoSet.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
