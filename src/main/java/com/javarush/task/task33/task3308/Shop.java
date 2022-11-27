@@ -1,6 +1,5 @@
 package com.javarush.task.task33.task3308;
 
-
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
@@ -50,3 +49,4 @@ public class Shop {
                 '}';
     }
 }
+
