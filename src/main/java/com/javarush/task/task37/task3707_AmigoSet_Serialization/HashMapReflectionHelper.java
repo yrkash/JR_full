@@ -1,4 +1,4 @@
-package com.javarush.task.task37.task3707_HashSet_Serialization;
+package com.javarush.task.task37.task3707_AmigoSet_Serialization;
 
 import java.lang.reflect.InaccessibleObjectException;
 import java.lang.reflect.InvocationTargetException;
