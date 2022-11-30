@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="new skill - JUnit (task3320)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3503/ClassForGenerics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3503/InterfaceForGenerics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3503/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3504/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3505/Convertable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3505/ConvertableBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3505/ConvertableUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3505/ConvertableUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3505/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3506/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3509/Solution.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="merge commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507_ClassLoader/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3508/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3511/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507_ClassLoader/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507/data/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507_ClassLoader/data/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507/data/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507_ClassLoader/data/Elephant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507/data/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507_ClassLoader/data/Sheep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +30,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="test" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="75f4dcbc94012b23b67cc7ba66c3fde18850f4f0" />
+        <entry key="$PROJECT_DIR$" value="d2a0936cac63316d1412e77ed7b621f39996269d" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -96,20 +99,20 @@
       <recent name="com.javarush.task.task33.task3320_JUnit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javarush.task.task35.task3511" />
+      <recent name="com.javarush.task.task35.task3508" />
       <recent name="com.javarush.task.task22.task3213_1" />
       <recent name="com.javarush.task.task35.task3506" />
       <recent name="com.javarush.task.task35.task3505" />
-      <recent name="com.javarush.task.task35.task3509" />
-      <recent name="com.javarush.task.task35.task3504" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.javarush.task.task22.task3213_1.Solution">
-    <configuration name="com.javarush.task.task22.task3213_1.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task22.task3213_1.Solution" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task35.task3507_ClassLoader.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task22.task3213_1.*" />
+          <option name="PATTERN" value="com.javarush.task.task35.task3507_ClassLoader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task35.task3504.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task35.task3504.Solution" />
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task35.task3507_ClassLoader.Solution1" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task35.task3504.*" />
+          <option name="PATTERN" value="com.javarush.task.task35.task3507_ClassLoader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.javarush.task.task22.task3213_1.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task22.task3213_1.Solution" />
+      <module name="JR_full" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task22.task3213_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,33 +172,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task35.task3509.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task35.task3509.Solution" />
-      <module name="JR_full" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task35.task3509.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.com.javarush.task.task22.task3213_1.Solution" />
-      <item itemvalue="Application.com.javarush.task.task35.task3504.Solution" />
       <item itemvalue="Application.com.javarush.task.task35.task3505.Solution" />
       <item itemvalue="Application.com.javarush.task.task35.task3506.Solution" />
-      <item itemvalue="Application.com.javarush.task.task35.task3509.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.com.javarush.task.task22.task3213_1.Solution" />
         <item itemvalue="Application.com.javarush.task.task35.task3506.Solution" />
         <item itemvalue="Application.com.javarush.task.task35.task3505.Solution" />
-        <item itemvalue="Application.com.javarush.task.task35.task3509.Solution" />
-        <item itemvalue="Application.com.javarush.task.task35.task3504.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669551532383</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="merge commit">
+      <created>1669829523758</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669829523758</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +290,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -301,7 +311,8 @@
     <MESSAGE value="Calculator with comments for JR" />
     <MESSAGE value="Level 34 completed" />
     <MESSAGE value="new skill - JUnit (task3320)" />
-    <option name="LAST_COMMIT_MESSAGE" value="new skill - JUnit (task3320)" />
+    <MESSAGE value="merge commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,6 +346,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3707_AmigoSet_Serialization/AmigoSet.java</url>
           <line>38</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507_ClassLoader/Solution.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507_ClassLoader/Solution.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507_ClassLoader/Solution.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
