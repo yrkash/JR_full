@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Pattern Factory Method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3601/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3601/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3601/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3601/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3601/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3609/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3609/CarModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3609/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3609/SpeedometerView.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="PECS (Producer Extends, Consumer Super)">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3606_ClassLoader_Reflection/HiddenClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3606_ClassLoader_Reflection/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3606_ClassLoader_Reflection/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3606_ClassLoader_Reflection/data/second/FirstHiddenClassImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3606_ClassLoader_Reflection/data/second/PackageAccessClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3606_ClassLoader_Reflection/data/second/SecondHiddenClassImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3607/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3611/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,16 +59,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3702/female" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "C:/Users/Laptop/IdeaProjects/JR_full/src/main/java/com/javarush/task/task36/task3606"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javarush.task.task36.task3606" />
       <recent name="com.javarush.task.task36.task3609" />
       <recent name="com.javarush.task.task35.task3505" />
       <recent name="com.javarush.task.task35.task3503" />
       <recent name="com.javarush.task.task33.task3320_JUnit" />
-      <recent name="com.javarush.task.task34.task3408" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\y.mitryasov\IdeaProjects\JR_full\src\main\java\com\javarush\task\task37\task3702\female" />
@@ -80,14 +85,14 @@
       <recent name="com.javarush.task.task33.task3320_JUnit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javarush.task.task36.task3606" />
+      <recent name="com.javarush.task.task36.task3607" />
       <recent name="com.javarush.task.task36.task3609" />
       <recent name="com.javarush.task.task36.task3601" />
       <recent name="com.javarush.task.task35.task3511" />
-      <recent name="com.javarush.task.task35.task3508" />
-      <recent name="com.javarush.task.task22.task3213_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.com.javarush.task.task36.task3606_ClassLoader_Reflection.Solution">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task36.task3601.Solution" />
       <module name="JR_full" />
@@ -127,19 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task35.task3507_ClassLoader.Solution1" />
-      <module name="JR_full" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task35.task3507_ClassLoader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3702_FactoryMethod.Solution" />
       <module name="JR_full" />
@@ -153,12 +145,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task22.task3213_1.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task22.task3213_1.Solution" />
+    <configuration name="com.javarush.task.task36.task3606_ClassLoader_Reflection.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task36.task3606_ClassLoader_Reflection.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task22.task3213_1.*" />
+          <option name="PATTERN" value="com.javarush.task.task36.task3606_ClassLoader_Reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.javarush.task.task36.task3611.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task36.task3611.Solution" />
+      <module name="JR_full" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task36.task3611.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,19 +172,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.com.javarush.task.task36.task3606_ClassLoader_Reflection.Solution" />
+      <item itemvalue="Application.com.javarush.task.task36.task3611.Solution" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution1" />
-      <item itemvalue="Application.com.javarush.task.task22.task3213_1.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.javarush.task.task36.task3606_ClassLoader_Reflection.Solution" />
+        <item itemvalue="Application.com.javarush.task.task36.task3611.Solution" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.com.javarush.task.task22.task3213_1.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +208,7 @@
       <workItem from="1669479683081" duration="8821000" />
       <workItem from="1669532953044" duration="5377000" />
       <workItem from="1669646027928" duration="9775000" />
+      <workItem from="1670174401841" duration="5103000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit.&#10;Start issue Tetris on 32 level">
       <created>1668353621489</created>
@@ -363,6 +369,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task35/task3507_ClassLoader/Solution.java</url>
           <line>47</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3611/Solution.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
