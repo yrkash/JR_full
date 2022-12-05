@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Level 36 (MVC)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3612_HashSet/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3613/Solution.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="task3606. One more problem about a ClassLoader+Reflection">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3610/MyMultiMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3610/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +51,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Laptop/IdeaProjects/JR_full/src/main/java/com/javarush/task/task36/task3606&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javarush.task.task36.task3610" />
       <recent name="com.javarush.task.task36.task3606" />
       <recent name="com.javarush.task.task36.task3609" />
       <recent name="com.javarush.task.task35.task3505" />
       <recent name="com.javarush.task.task35.task3503" />
-      <recent name="com.javarush.task.task33.task3320_JUnit" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\y.mitryasov\IdeaProjects\JR_full\src\main\java\com\javarush\task\task37\task3702\female" />
@@ -70,14 +77,14 @@
       <recent name="com.javarush.task.task33.task3320_JUnit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.javarush.task.task36.task3613" />
-      <recent name="com.javarush.task.task36.task3612" />
+      <recent name="com.javarush.task.task36.task3610" />
       <recent name="com.javarush.task.task36.task3606" />
       <recent name="com.javarush.task.task36.task3607" />
       <recent name="com.javarush.task.task36.task3609" />
+      <recent name="com.javarush.task.task36.task3601" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.com.javarush.task.task36.task3610.Solution">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task36.task3601.Solution" />
       <module name="JR_full" />
@@ -97,32 +104,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task36.task3609.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task36.task3613.Solution" />
-      <module name="JR_full" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task36.task3613.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task36.task3612_HashSet.Solution" />
-      <module name="JR_full" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task36.task3612_HashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,6 +137,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.javarush.task.task36.task3610.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task36.task3610.Solution" />
+      <module name="JR_full" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task36.task3610.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.javarush.task.task36.task3611.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task36.task3611.Solution" />
       <module name="JR_full" />
@@ -170,19 +164,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.com.javarush.task.task36.task3610.Solution" />
       <item itemvalue="Application.com.javarush.task.task36.task3606_ClassLoader_Reflection.Solution" />
       <item itemvalue="Application.com.javarush.task.task36.task3611.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.com.javarush.task.task36.task3610.Solution" />
         <item itemvalue="Application.com.javarush.task.task36.task3606_ClassLoader_Reflection.Solution" />
         <item itemvalue="Application.com.javarush.task.task36.task3611.Solution" />
         <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +200,8 @@
       <workItem from="1669479683081" duration="8821000" />
       <workItem from="1669532953044" duration="5377000" />
       <workItem from="1669646027928" duration="9775000" />
-      <workItem from="1670174401841" duration="5103000" />
+      <workItem from="1670174401841" duration="6410000" />
+      <workItem from="1670250723014" duration="3387000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit.&#10;Start issue Tetris on 32 level">
       <created>1668353621489</created>
@@ -278,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669903602012</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="task3606. One more problem about a ClassLoader+Reflection">
+      <created>1670186287274</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670186287274</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +320,8 @@
     <MESSAGE value="new skill - JUnit (task3320)" />
     <MESSAGE value="merge commit" />
     <MESSAGE value="Pattern Factory Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pattern Factory Method" />
+    <MESSAGE value="task3606. One more problem about a ClassLoader+Reflection" />
+    <option name="LAST_COMMIT_MESSAGE" value="task3606. One more problem about a ClassLoader+Reflection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
