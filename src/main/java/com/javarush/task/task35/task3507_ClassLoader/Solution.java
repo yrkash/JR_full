@@ -24,7 +24,7 @@ public class Solution {
         boolean hasConstructor = false;
 
         File dir = new File(pathToAnimals);
-        String[] pathes = dir.list(new FilenameFilter() {
+        String[] paths = dir.list(new FilenameFilter() {
             @Override
             public boolean accept(File dir1, String name) {
                 return name.toLowerCase().endsWith(".class");
@@ -55,7 +55,7 @@ public class Solution {
         };
 
 
-        for(String path: pathes) {
+        for(String path: paths) {
             String className = path.replace(".class","");
             Class clazz = null;
             try {
