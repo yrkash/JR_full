@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Shortener. FileStorageStrategy (Serialization)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javarush/task/task33/task3310/FunctionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javarush/task/task33/task3310/SpeedTest.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Shortener. @Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3701/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3703/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3704/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3705/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3708/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3708/cache/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3708/retrievers/CachingProxyRetriever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3708/retrievers/OriginalRetriever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3708/retrievers/Retriever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3708/storage/RemoteStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3708/storage/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,16 +67,17 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "last_directory_selection": "C:/Users/Laptop/IdeaProjects/JR_full/src/main/java/com/javarush/task/task37/task3708",
     "last_opened_file_path": "C:/Users/Laptop/IdeaProjects/JR_full/src/main/java/com/javarush/task/task33/task3310/tests"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javarush.task.task37.task3708.cache" />
+      <recent name="com.javarush.task.task37.task3708" />
+      <recent name="com.javarush.task.task37.task3708\storage" />
       <recent name="com.javarush.task.task36.task3610" />
       <recent name="com.javarush.task.task36.task3606" />
-      <recent name="com.javarush.task.task36.task3609" />
-      <recent name="com.javarush.task.task35.task3505" />
-      <recent name="com.javarush.task.task35.task3503" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Laptop\IdeaProjects\JR_full\src\main\java\com\javarush\task\task33\task3310\tests" />
@@ -78,25 +88,28 @@
       <recent name="junit.framework.TestCase" />
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.javarush.task.task37.task3708.retrievers" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.javarush.task.task33.task3310" />
       <recent name="com.javarush.task.task33.task3320_JUnit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.javarush.task.task36.task3610" />
-      <recent name="com.javarush.task.task36.task3606" />
-      <recent name="com.javarush.task.task36.task3607" />
-      <recent name="com.javarush.task.task36.task3609" />
-      <recent name="com.javarush.task.task36.task3601" />
+      <recent name="com.javarush.task.task37.task3708" />
+      <recent name="com.javarush.task.task37.task3705" />
+      <recent name="com.javarush.task.task37.task3704" />
+      <recent name="com.javarush.task.task37.task3703" />
+      <recent name="com.javarush.task.task37.task3701" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpeedTest">
-    <configuration name="com.javarush.task.task33.task3310.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3310.Solution" />
+  <component name="RunManager" selected="Application.com.javarush.task.task37.task3705.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3701.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task33.task3310.*" />
+          <option name="PATTERN" value="com.javarush.task.task37.task3701.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task36.task3610.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task36.task3610.Solution" />
+    <configuration name="com.javarush.task.task37.task3703.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3703.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task36.task3610.*" />
+          <option name="PATTERN" value="com.javarush.task.task37.task3703.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,17 +130,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.javarush.task.task37.task3704.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3704.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task33.task3310.*" />
+          <option name="PATTERN" value="com.javarush.task.task37.task3704.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javarush.task.task33.task3310" />
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3310.FunctionalTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.javarush.task.task37.task3705.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3705.Solution" />
+      <module name="JR_full" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task37.task3705.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,35 +171,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JR_full" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task33.task3320_JUnit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javarush.task.task33.task3320_JUnit" />
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3320_JUnit.UserTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.com.javarush.task.task33.task3310.Solution" />
-      <item itemvalue="Application.com.javarush.task.task36.task3610.Solution" />
-      <item itemvalue="JUnit.FunctionalTest" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.com.javarush.task.task37.task3703.Solution" />
+      <item itemvalue="Application.com.javarush.task.task37.task3704.Solution" />
+      <item itemvalue="Application.com.javarush.task.task37.task3705.Solution" />
       <item itemvalue="JUnit.SpeedTest" />
-      <item itemvalue="JUnit.UserTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.javarush.task.task37.task3705.Solution" />
+        <item itemvalue="Application.com.javarush.task.task37.task3704.Solution" />
+        <item itemvalue="Application.com.javarush.task.task37.task3703.Solution" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.SpeedTest" />
-        <item itemvalue="JUnit.FunctionalTest" />
-        <item itemvalue="JUnit.UserTest" />
-        <item itemvalue="Application.com.javarush.task.task33.task3310.Solution" />
-        <item itemvalue="Application.com.javarush.task.task36.task3610.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +210,10 @@
       <workItem from="1669646027928" duration="9775000" />
       <workItem from="1670174401841" duration="6410000" />
       <workItem from="1670250723014" duration="3387000" />
-      <workItem from="1670670576685" duration="8106000" />
+      <workItem from="1670670576685" duration="9394000" />
+      <workItem from="1670702144690" duration="609000" />
+      <workItem from="1670744935964" duration="58000" />
+      <workItem from="1670766549006" duration="9256000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit.&#10;Start issue Tetris on 32 level">
       <created>1668353621489</created>
@@ -294,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670404562749</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Shortener. @Test">
+      <created>1670681586101</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670681586101</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +356,8 @@
     <MESSAGE value="task3606. One more problem about a ClassLoader+Reflection" />
     <MESSAGE value="-" />
     <MESSAGE value="Shortener. HashMapStorageStrategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shortener. HashMapStorageStrategy" />
+    <MESSAGE value="Shortener. @Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shortener. @Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -391,6 +411,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task36/task3611/Solution.java</url>
           <line>26</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3701/Solution.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
