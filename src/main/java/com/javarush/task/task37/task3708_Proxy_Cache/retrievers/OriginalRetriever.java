@@ -1,6 +1,6 @@
-package com.javarush.task.task37.task3708.retrievers;
+package com.javarush.task.task37.task3708_Proxy_Cache.retrievers;
 
-import com.javarush.task.task37.task3708.storage.Storage;
+import com.javarush.task.task37.task3708_Proxy_Cache.storage.Storage;
 
 public class OriginalRetriever implements Retriever {
     Storage storage;

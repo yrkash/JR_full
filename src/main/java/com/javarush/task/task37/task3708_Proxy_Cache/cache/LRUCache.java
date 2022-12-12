@@ -1,4 +1,4 @@
-package com.javarush.task.task37.task3708.cache;
+package com.javarush.task.task37.task3708_Proxy_Cache.cache;
 
 import java.util.LinkedHashMap;
 

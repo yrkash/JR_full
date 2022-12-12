@@ -1,4 +1,4 @@
-package com.javarush.task.task34.task3413;
+package com.javarush.task.task34.task3413_SoftCache;
 
 import java.lang.ref.SoftReference;
 import java.util.Map;

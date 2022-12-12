@@ -1,4 +1,4 @@
-package com.javarush.task.task34.task3413;
+package com.javarush.task.task34.task3413_SoftCache;
 
 /*
 Кеш на основании SoftReference

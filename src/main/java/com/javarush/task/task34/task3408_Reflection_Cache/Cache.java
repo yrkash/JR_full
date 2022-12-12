@@ -1,4 +1,4 @@
-    package com.javarush.task.task34.task3408_Reflection;
+    package com.javarush.task.task34.task3408_Reflection_Cache;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

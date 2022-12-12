@@ -1,10 +1,10 @@
-package com.javarush.task.task37.task3708;
+package com.javarush.task.task37.task3708_Proxy_Cache;
 
-import com.javarush.task.task37.task3708.retrievers.CachingProxyRetriever;
-import com.javarush.task.task37.task3708.retrievers.OriginalRetriever;
-import com.javarush.task.task37.task3708.retrievers.Retriever;
-import com.javarush.task.task37.task3708.storage.RemoteStorage;
-import com.javarush.task.task37.task3708.storage.Storage;
+import com.javarush.task.task37.task3708_Proxy_Cache.retrievers.CachingProxyRetriever;
+import com.javarush.task.task37.task3708_Proxy_Cache.retrievers.OriginalRetriever;
+import com.javarush.task.task37.task3708_Proxy_Cache.retrievers.Retriever;
+import com.javarush.task.task37.task3708_Proxy_Cache.storage.RemoteStorage;
+import com.javarush.task.task37.task3708_Proxy_Cache.storage.Storage;
 
 /*
 Кеширующий Proxy
