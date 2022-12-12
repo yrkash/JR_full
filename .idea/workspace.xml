@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Shortener. BiMapStrategy's (with 2 HashMaps, HashBiMapStorageStrategy from Google, DualHashBidiMapStorageStrategy from apache)">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Lvl37.Beginning">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3709_Pattern_Proxy/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3709_Pattern_Proxy/connectors/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3709_Pattern_Proxy/connectors/SecurityProxyConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3709_Pattern_Proxy/connectors/SimpleConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3709_Pattern_Proxy/security/SecurityChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3709_Pattern_Proxy/security/SecurityCheckerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3710/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3710/decorators/RedShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3710/decorators/ShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3710/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3710/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3710/shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3714/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3408_Reflection/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3408_Reflection_Cache/Cache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3408_Reflection/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3408_Reflection_Cache/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3413/AnyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3413_SoftCache/AnyObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3413/SoftCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3413_SoftCache/SoftCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3413/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task34/task3413_SoftCache/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3708/retrievers/CachingProxyRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3708/retrievers/CachingProxyRetriever.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +31,8 @@
       <list>
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="JUnit3 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,11 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javarush.task.task37.task3710.decorators" />
+      <recent name="com.javarush.task.task37.task3710.shapes" />
+      <recent name="com.javarush.task.task37.task3709.security" />
+      <recent name="com.javarush.task.task37.task3709.connectors" />
       <recent name="com.javarush.task.task37.task3708.cache" />
-      <recent name="com.javarush.task.task37.task3708" />
-      <recent name="com.javarush.task.task37.task3708\storage" />
-      <recent name="com.javarush.task.task36.task3610" />
-      <recent name="com.javarush.task.task36.task3606" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Laptop\IdeaProjects\JR_full\src\main\java\com\javarush\task\task33\task3310\tests" />
@@ -76,6 +83,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.javarush.task.task37.task3709.connectors" />
       <recent name="com.javarush.task.task37.task3708.retrievers" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -83,14 +91,14 @@
       <recent name="com.javarush.task.task33.task3320_JUnit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javarush.task.task37.task3710" />
+      <recent name="com.javarush.task.task37.task3709" />
+      <recent name="com.javarush.task.task37.task3714" />
       <recent name="com.javarush.task.task37.task3708" />
       <recent name="com.javarush.task.task37.task3705" />
-      <recent name="com.javarush.task.task37.task3704" />
-      <recent name="com.javarush.task.task37.task3703" />
-      <recent name="com.javarush.task.task37.task3701" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.com.javarush.task.task37.task3709_Pattern_Proxy.Solution">
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task34.task3413_SoftCache.Solution" />
       <module name="JR_full" />
@@ -117,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task37.task3703.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3703.Solution" />
+    <configuration name="com.javarush.task.task37.task3708_Proxy_Cache.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3708_Proxy_Cache.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task37.task3703.*" />
+          <option name="PATTERN" value="com.javarush.task.task37.task3708_Proxy_Cache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task37.task3704.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3704.Solution" />
+    <configuration name="com.javarush.task.task37.task3709_Pattern_Proxy.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3709_Pattern_Proxy.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task37.task3704.*" />
+          <option name="PATTERN" value="com.javarush.task.task37.task3709_Pattern_Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task37.task3705.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3705.Solution" />
+    <configuration name="com.javarush.task.task37.task3714.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3714.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task37.task3705.*" />
+          <option name="PATTERN" value="com.javarush.task.task37.task3714.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.com.javarush.task.task37.task3703.Solution" />
-      <item itemvalue="Application.com.javarush.task.task37.task3704.Solution" />
-      <item itemvalue="Application.com.javarush.task.task37.task3705.Solution" />
-      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.com.javarush.task.task37.task3708_Proxy_Cache.Solution" />
+      <item itemvalue="Application.com.javarush.task.task37.task3709_Pattern_Proxy.Solution" />
+      <item itemvalue="Application.com.javarush.task.task37.task3714.Solution" />
       <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.com.javarush.task.task37.task3709_Pattern_Proxy.Solution" />
+        <item itemvalue="Application.com.javarush.task.task37.task3708_Proxy_Cache.Solution" />
+        <item itemvalue="Application.com.javarush.task.task37.task3714.Solution" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.com.javarush.task.task37.task3705.Solution" />
-        <item itemvalue="Application.com.javarush.task.task37.task3704.Solution" />
-        <item itemvalue="Application.com.javarush.task.task37.task3703.Solution" />
       </list>
     </recent_temporary>
   </component>
