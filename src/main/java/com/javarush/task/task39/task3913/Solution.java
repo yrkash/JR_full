@@ -6,6 +6,6 @@ import java.util.Date;
 public class Solution {
     public static void main(String[] args) {
         LogParser logParser = new LogParser(Paths.get("c:/temp/"));
-        System.out.println(logParser.getNumberOfUniqueIPs(null, new Date()));
+        System.out.println(logParser.getNumberOfUniqueIPs(new Date(1212121212121L), new Date()));
     }
 }

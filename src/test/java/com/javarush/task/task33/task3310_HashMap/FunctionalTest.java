@@ -1,7 +1,6 @@
-package com.javarush.task.task33.task3310;
+package com.javarush.task.task33.task3310_HashMap;
 
-import com.javarush.task.task33.task3310.Shortener;
-import com.javarush.task.task33.task3310.strategy.*;
+import com.javarush.task.task33.task3310_HashMap.strategy.*;
 import org.junit.Assert;
 import org.junit.Test;
 

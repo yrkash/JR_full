@@ -1,4 +1,4 @@
-package com.javarush.task.task33.task3310.strategy;
+package com.javarush.task.task33.task3310_HashMap.strategy;
 
 import java.io.*;
 import java.nio.file.Files;

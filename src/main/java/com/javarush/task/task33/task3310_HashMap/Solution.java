@@ -1,6 +1,6 @@
-package com.javarush.task.task33.task3310;
+package com.javarush.task.task33.task3310_HashMap;
 
-import com.javarush.task.task33.task3310.strategy.*;
+import com.javarush.task.task33.task3310_HashMap.strategy.*;
 
 import java.util.Date;
 import java.util.HashSet;

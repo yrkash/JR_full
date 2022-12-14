@@ -1,10 +1,9 @@
-package com.javarush.task.task33.task3310.strategy;
+package com.javarush.task.task33.task3310_HashMap.strategy;
 
-import com.google.common.collect.HashBiMap;
+import org.apache.commons.collections4.bidimap.DualHashBidiMap;
 
-
-public class HashBiMapStorageStrategy implements StorageStrategy{
-    private HashBiMap<Long, String> data = HashBiMap.create();
+public class DualHashBidiMapStorageStrategy implements StorageStrategy {
+    private DualHashBidiMap<Long, String> data = new DualHashBidiMap<>();
 
 
     @Override
@@ -24,7 +23,7 @@ public class HashBiMapStorageStrategy implements StorageStrategy{
 
     @Override
     public Long getKey(String value) {
-        return data.inverse().get(value);
+        return data.getKey(value);
     }
 
     @Override

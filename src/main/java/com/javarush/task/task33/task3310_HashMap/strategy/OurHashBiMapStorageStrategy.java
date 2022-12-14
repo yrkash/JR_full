@@ -1,8 +1,6 @@
-package com.javarush.task.task33.task3310.strategy;
+package com.javarush.task.task33.task3310_HashMap.strategy;
 
 import java.util.HashMap;
-import java.util.Map;
-import java.util.Optional;
 
 public class OurHashBiMapStorageStrategy implements StorageStrategy{
 

@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Patterns: Facade, Template method, Chain of Responsibility">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3706/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/LogParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/logs/example.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/query/IPQuery.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Pattern Decorator (Wrapper), Proxy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/ExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/Shortener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/Shortener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/DualHashBidiMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/DualHashBidiMapStorageStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/FileBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/FileBucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/FileStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/FileStorageStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/HashBiMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/HashBiMapStorageStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/HashMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/HashMapStorageStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/OurHashBiMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/OurHashBiMapStorageStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/OurHashMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/OurHashMapStorageStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/StorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/StorageStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/LogParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/LogParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarush/task/task33/task3310/FunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarush/task/task33/task3310_HashMap/FunctionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarush/task/task33/task3310/SpeedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarush/task/task33/task3310_HashMap/SpeedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +107,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (2)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task35.task3513_2048.Main" />
+      <module name="JR_full" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task35.task3513_2048.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3706.Solution" />
       <module name="JR_full" />
@@ -122,19 +147,6 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3711_Pattern_Facade.Solution" />
-      <module name="JR_full" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task37.task3711_Pattern_Facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3712_Pattern_Template_method.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
@@ -153,19 +165,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task37.task3713_Chain_Of_Responsibility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.javarush.task.task37.task3708_Proxy_Cache.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3708_Proxy_Cache.Solution" />
-      <module name="JR_full" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task37.task3708_Proxy_Cache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,7 +199,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.com.javarush.task.task37.task3708_Proxy_Cache.Solution" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.com.javarush.task.task37.task3709_Pattern_Proxy.Solution" />
       <item itemvalue="Application.com.javarush.task.task37.task3714.Solution" />
       <item itemvalue="Application.Solution (1)" />
@@ -209,7 +208,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (1)" />
