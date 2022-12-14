@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Pattern Proxy(task 3708) + Cache">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3711_Pattern_Facade/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3711_Pattern_Facade/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3711_Pattern_Facade/HardDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3711_Pattern_Facade/Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3711_Pattern_Facade/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3712_Pattern_Template_method/Basketball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3712_Pattern_Template_method/Football.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3712_Pattern_Template_method/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3712_Pattern_Template_method/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3712_Pattern_Template_method/Tennis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3713_Chain_Of_Responsibility/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3713_Chain_Of_Responsibility/space/crew/AbstractCrewMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3713_Chain_Of_Responsibility/space/crew/CabinBoy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3713_Chain_Of_Responsibility/space/crew/Captain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3713_Chain_Of_Responsibility/space/crew/Engineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3713_Chain_Of_Responsibility/space/crew/FirstMate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3713_Chain_Of_Responsibility/space/crew/SpaceShip.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Patterns: Facade, Template method, Chain of Responsibility">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3706/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/LogParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/logs/example.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/query/IPQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +22,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="JUnit4 Test Class" />
         <option value="JUnit3 Test Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -68,13 +58,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javarush.task.task39.task3913" />
       <recent name="com.javarush.task.task37.task3713.space.crew" />
       <recent name="com.javarush.task.task37.task3713.crew" />
       <recent name="com.javarush.task.task37.task3713" />
       <recent name="com.javarush.task.task37.task3712" />
-      <recent name="com.javarush.task.task37.task3711" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Laptop\IdeaProjects\JR_full\src\main\java\com\javarush\task\task33\task3310\tests" />
@@ -94,20 +87,33 @@
       <recent name="com.javarush.task.task33.task3320_JUnit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javarush.task.task37.task3706" />
       <recent name="com.javarush.task.task37.task3713" />
       <recent name="com.javarush.task.task37.task3711" />
       <recent name="com.javarush.task.task37.task3710" />
       <recent name="com.javarush.task.task37.task3709" />
-      <recent name="com.javarush.task.task37.task3714" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3708_cache.Solution" />
+  <component name="RunManager" selected="Application.Solution (2)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3706.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task37.task3708_cache.*" />
+          <option name="PATTERN" value="com.javarush.task.task37.task3706.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3913.Solution" />
+      <module name="JR_full" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task39.task3913.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,19 +200,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.com.javarush.task.task37.task3708_Proxy_Cache.Solution" />
       <item itemvalue="Application.com.javarush.task.task37.task3709_Pattern_Proxy.Solution" />
       <item itemvalue="Application.com.javarush.task.task37.task3714.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.com.javarush.task.task37.task3714.Solution" />
-        <item itemvalue="Application.com.javarush.task.task37.task3709_Pattern_Proxy.Solution" />
+        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670789591376</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Patterns: Facade, Template method, Chain of Responsibility">
+      <created>1670934643318</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670934643318</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +401,8 @@
     <MESSAGE value="Shortener. @Test" />
     <MESSAGE value="Lvl31, 32 added to full project" />
     <MESSAGE value="Lvl21-30 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lvl21-30 added" />
+    <MESSAGE value="Patterns: Facade, Template method, Chain of Responsibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Patterns: Facade, Template method, Chain of Responsibility" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
