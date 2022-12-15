@@ -4,25 +4,25 @@ import java.util.Date;
 
 public class Log {
     private String ip;
-    private String name;
+    private String user;
     private Date date;
     private Event event;
 
     private int taskNumber;
     private Status status;
 
-    public Log(String ip, String name, Date date, Event event, int taskNumber, Status status) {
+    public Log(String ip, String user, Date date, Event event, int taskNumber, Status status) {
         this.ip = ip;
-        this.name = name;
+        this.user = user;
         this.date = date;
         this.event = event;
         this.taskNumber = taskNumber;
         this.status = status;
     }
 
-    public Log(String ip, String name, Date date, Event event, Status status) {
+    public Log(String ip, String user, Date date, Event event, Status status) {
         this.ip = ip;
-        this.name = name;
+        this.user = user;
         this.date = date;
         this.event = event;
         this.taskNumber = 0;
@@ -37,12 +37,12 @@ public class Log {
         this.ip = ip;
     }
 
-    public String getName() {
-        return name;
+    public String getUser() {
+        return user;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUser(String user) {
+        this.user = user;
     }
 
     public Date getDate() {
@@ -77,7 +77,7 @@ public class Log {
     public String toString() {
         return "Log{" +
                 "ip='" + ip + '\'' +
-                ", name='" + name + '\'' +
+                ", user='" + user + '\'' +
                 ", date=" + date +
                 ", event=" + event +
                 ", status=" + status +
