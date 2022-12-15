@@ -1,24 +1,19 @@
 package com.javarush.task.task39.task3913;
 
-import com.javarush.task.task39.task3913.query.DateQuery;
-import com.javarush.task.task39.task3913.query.EventQuery;
-import com.javarush.task.task39.task3913.query.IPQuery;
-import com.javarush.task.task39.task3913.query.UserQuery;
+import com.javarush.task.task39.task3913.query.*;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery {
+public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery, QLQuery {
 
     private Path path;
 
@@ -95,6 +90,64 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery {
         }
     }
 
+
+    @Override
+    public Set<Object> execute(String query) {
+        switch (query.split(" ")[1]) {
+            case "ip":
+                return new HashSet<>(getUniqueIPs(null, null));
+            case "user":
+                return new HashSet<>(getAllUsers());
+            case "date":
+                return new HashSet<>(getAllDates(null, null));
+            case "event":
+                return new HashSet<>(getAllEvents(null, null));
+            case "status":
+                return new HashSet<>(getAllStatus(null, null));
+        }
+        return null;
+    }
+
+    /*@Override
+    public Set<Object> execute(String query) {
+        Set<Object> result = new HashSet<>();
+        String field1;
+        String field2 = null;
+        String value1 = null;
+        Pattern pattern = Pattern.compile("get (ip|user|date|event|status)"
+                + "( for (ip|user|date|event|status) = \"(.*?)\")?");
+        Matcher matcher = pattern.matcher(query);
+        matcher.find();
+        field1 = matcher.group(1);
+        if (matcher.group(2) != null) {
+            field2 = matcher.group(3);
+            value1 = matcher.group(4);
+        }
+
+        if (field2 != null && value1 != null) {
+            for (int i = 0; i < logEntities.size(); i++) {
+                if (field2.equals("date")) {
+                    try {
+                        if (logEntities.get(i).getDate().getTime() == simpleDateFormat.parse(value1).getTime()) {
+                            result.add(getCurrentValue(logEntities.get(i), field1));
+                        }
+                    } catch (ParseException e) {
+                    }
+                } else {
+                    if (value1.equals(getCurrentValue(logEntities.get(i), field2).toString())) {
+                        result.add(getCurrentValue(logEntities.get(i), field1));
+                    }
+                }
+            }
+        } else {
+            for (int i = 0; i < logEntities.size(); i++) {
+                result.add(getCurrentValue(logEntities.get(i), field1));
+            }
+        }
+
+        return result;
+    }*/
+
     //EventQuery methods
     @Override
     public int getNumberOfAllEvents(Date after, Date before) {
@@ -166,6 +219,12 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery {
     }
 
     //DateQuery methods
+    public Set<Date> getAllDates(Date after, Date before) {
+        return getRecordsByRangeOfDates(after, before).stream()
+                .map(Log::getDate)
+                .collect(Collectors.toSet());
+    }
+
     @Override
     public Set<Date> getDatesForUserAndEvent(String user, Event event, Date after, Date before) {
         return getRecordsByRangeOfDates(after, before).stream()
@@ -351,6 +410,12 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery {
         return getRecordsByRangeOfDates(after,before).stream()
                 .filter(v->v.getStatus().equals(status))
                 .map(v-> v.getIp())
+                .collect(Collectors.toSet());
+    }
+
+    public Set<Status> getAllStatus(Date after, Date before) {
+        return getRecordsByRangeOfDates(after, before).stream()
+                .map(Log::getStatus)
                 .collect(Collectors.toSet());
     }
 }

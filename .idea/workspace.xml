@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Pattern Decorator (Wrapper), Proxy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/query/DateQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/query/EventQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/query/UserQuery.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="LogParser. Implemented DataQuery, EventQuery, UserQuery.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/query/QLQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/LogParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/LogParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +55,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -342,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670934643318</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="LogParser. Implemented DataQuery, EventQuery, UserQuery.">
+      <created>1671107123112</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671107123112</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +396,8 @@
     <MESSAGE value="Lvl31, 32 added to full project" />
     <MESSAGE value="Lvl21-30 added" />
     <MESSAGE value="Patterns: Facade, Template method, Chain of Responsibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Patterns: Facade, Template method, Chain of Responsibility" />
+    <MESSAGE value="LogParser. Implemented DataQuery, EventQuery, UserQuery." />
+    <option name="LAST_COMMIT_MESSAGE" value="LogParser. Implemented DataQuery, EventQuery, UserQuery." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
