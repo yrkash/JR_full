@@ -69,6 +69,10 @@ public class Log {
         this.status = status;
     }
 
+    public int getTaskNumber() { return taskNumber; }
+
+    public void setTaskNumber(int taskNumber) { this.taskNumber = taskNumber;}
+
     @Override
     public String toString() {
         return "Log{" +

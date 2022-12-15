@@ -5,26 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Pattern Decorator (Wrapper), Proxy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/query/DateQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/query/EventQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/query/UserQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/ExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/Shortener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/Shortener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/DualHashBidiMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/DualHashBidiMapStorageStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/FileBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/FileBucket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/FileStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/FileStorageStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/HashBiMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/HashBiMapStorageStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/HashMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/HashMapStorageStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/OurHashBiMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/OurHashBiMapStorageStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/OurHashMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/OurHashMapStorageStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310/strategy/StorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task33/task3310_HashMap/strategy/StorageStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/LogParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/LogParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarush/task/task33/task3310/FunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarush/task/task33/task3310_HashMap/FunctionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarush/task/task33/task3310/SpeedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarush/task/task33/task3310_HashMap/SpeedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +23,8 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="JUnit3 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -199,6 +186,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.com.javarush.task.task37.task3709_Pattern_Proxy.Solution" />
       <item itemvalue="Application.com.javarush.task.task37.task3714.Solution" />
@@ -371,7 +359,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
