@@ -37,7 +37,7 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery, QLQ
         return null;
     }
     public static Predicate<Log> isDateInRange(Date after, Date before) {
-        return t-> ((after == null || !t.getDate().before(after)) && (before == null || !t.getDate().after(before)));
+        return t-> ((after == null || t.getDate().after(after)) && (before == null || t.getDate().before(before)));
     }
     public static  List<Log> getLogList(List<String> fileList) {
         List<Log> logList = new ArrayList<>();
@@ -118,14 +118,14 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery, QLQ
         }
         return null;
     }
-    public List<Log> getRecordsWithValue (String field2, String value) {
+    public List<Log> getRecordsWithValue (String field2, String value, Date date1, Date date2) {
         switch (field2) {
             case("ip"):
-                return getRecordsByRangeOfDates(null, null).stream()
+                return getRecordsByRangeOfDates(date1, date2).stream()
                     .filter(t-> t.getIp().equals(value))
                     .collect(Collectors.toList());
             case("user"):
-                return getRecordsByRangeOfDates(null, null).stream()
+                return getRecordsByRangeOfDates(date1, date2).stream()
                         .filter(t-> t.getUser().equals(value))
                         .collect(Collectors.toList());
             case("date"):
@@ -136,15 +136,15 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery, QLQ
                 } catch (ParseException e) {
                     throw new RuntimeException(e);
                 }
-                return getRecordsByRangeOfDates(null, null).stream()
+                return getRecordsByRangeOfDates(date1, date2).stream()
                         .filter(t-> t.getDate().equals(date))
                         .collect(Collectors.toList());
             case("status"):
-                return getRecordsByRangeOfDates(null, null).stream()
+                return getRecordsByRangeOfDates(date1, date2).stream()
                         .filter(t-> t.getStatus().equals(Status.valueOf(value)))
                         .collect(Collectors.toList());
             case("event"):
-                return getRecordsByRangeOfDates(null, null).stream()
+                return getRecordsByRangeOfDates(date1, date2).stream()
                         .filter(t-> t.getEvent().equals(Event.valueOf(value)))
                         .collect(Collectors.toList());
         }
@@ -152,24 +152,53 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery, QLQ
     }
     @Override
     public Set<Object> execute(String query) {
+        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yy HH:mm:ss");
         String field1;
         String field2 = null;
         String value1 = null;
+        String value2 = null;
+        String value3 = null;
         //Лист записей, где значение поля равно value
         List<Log> listWithValue;
         Pattern pattern = Pattern.compile("get (ip|user|date|event|status)"
-                + "( for (ip|user|date|event|status) = \"(.*?)\")?");
+                + "( for (ip|user|date|event|status) = \"(.*?)\")?"
+                + "( and date between \"(.*?)\" and \"(.*?)\")?");
         Matcher matcher = pattern.matcher(query);
         matcher.find();
         field1 = matcher.group(1);
-        if (matcher.group(2) != null) {
+//        System.out.println("Gr1 = " + matcher.group(1));
+//        System.out.println("Gr2 = " + matcher.group(2));
+//        System.out.println("Gr3 = " + matcher.group(3));
+//        System.out.println("Gr4 = " + matcher.group(4));
+//        System.out.println("Gr5 = " + matcher.group(5));
+//        System.out.println("Gr6 = " + matcher.group(6));
+//        System.out.println("Gr7 = " + matcher.group(7));
+        if (matcher.group(2) != null && matcher.group(5) != null) {
             field2 = matcher.group(3);
             value1 = matcher.group(4);
-            listWithValue = getRecordsWithValue(field2, value1);
 
+            value2 = matcher.group(6);
+            value3 = matcher.group(7);
+            Date date1;
+            Date date2;
+            try {
+                date1 = format.parse(value2);
+                date2 = format.parse(value3);
+            } catch (ParseException e) {
+                date1 = null;
+                date2 = null;
+            }
+            listWithValue = getRecordsWithValue(field2, value1,date1,date2);
         } else {
-            listWithValue = getRecordsByRangeOfDates(null,null);
+            if (matcher.group(2) != null) {
+                field2 = matcher.group(3);
+                value1 = matcher.group(4);
+                listWithValue = getRecordsWithValue(field2, value1,null,null);
+            } else {
+                listWithValue = getRecordsByRangeOfDates(null,null);
+            }
         }
+
         return getResultSet(field1, listWithValue);
     }
 
@@ -249,7 +278,6 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery, QLQ
                 .map(Log::getDate)
                 .collect(Collectors.toSet());
     }
-
     @Override
     public Set<Date> getDatesForUserAndEvent(String user, Event event, Date after, Date before) {
         return getRecordsByRangeOfDates(after, before).stream()
