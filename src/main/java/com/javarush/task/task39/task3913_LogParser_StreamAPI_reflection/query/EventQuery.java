@@ -1,6 +1,6 @@
-package com.javarush.task.task39.task3913.query;
+package com.javarush.task.task39.task3913_LogParser_StreamAPI_reflection.query;
 
-import com.javarush.task.task39.task3913.Event;
+import com.javarush.task.task39.task3913_LogParser_StreamAPI_reflection.Event;
 
 import java.util.Date;
 import java.util.Map;

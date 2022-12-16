@@ -1,6 +1,7 @@
-package com.javarush.task.task39.task3913;
+package com.javarush.task.task39.task3913_LogParser_StreamAPI_reflection;
 
 import java.util.Date;
+import java.util.Objects;
 
 public class Log {
     private String ip;
@@ -82,5 +83,18 @@ public class Log {
                 ", event=" + event +
                 ", status=" + status +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Log log = (Log) o;
+        return taskNumber == log.taskNumber && Objects.equals(ip, log.ip) && Objects.equals(user, log.user) && Objects.equals(date, log.date) && event == log.event && status == log.status;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(ip, user, date, event, taskNumber, status);
     }
 }

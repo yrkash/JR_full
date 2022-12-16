@@ -1,4 +1,4 @@
-package com.javarush.task.task39.task3913.query;
+package com.javarush.task.task39.task3913_LogParser_StreamAPI_reflection.query;
 
 import java.util.Set;
 

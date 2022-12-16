@@ -1,11 +1,10 @@
-package com.javarush.task.task39.task3913;
+package com.javarush.task.task39.task3913_LogParser_StreamAPI_reflection;
 
-import com.javarush.task.task39.task3913.query.*;
+import com.javarush.task.task39.task3913_LogParser_StreamAPI_reflection.query.*;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.nio.file.*;

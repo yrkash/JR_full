@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="LogParser. QLQuery (команды)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/javarush/task/task39/task3913/LogParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/LogParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/LogParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +19,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="JUnit3 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -53,13 +54,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3913" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.javarush.task.task39.task3913" />
@@ -82,6 +83,7 @@
       <recent name="com.javarush.task.task37.task3708.retrievers" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.javarush.task.task39.task3913" />
       <recent name="com.javarush.task.task33.task3310" />
       <recent name="com.javarush.task.task33.task3320_JUnit" />
     </key>
@@ -93,7 +95,7 @@
       <recent name="com.javarush.task.task37.task3709" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="JUnit.LogParserTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task35.task3513_2048.Main" />
       <module name="JR_full" />
@@ -134,19 +136,6 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3712_Pattern_Template_method.Solution" />
-      <module name="JR_full" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task37.task3712_Pattern_Template_method.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3713_Chain_Of_Responsibility.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
@@ -159,46 +148,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task37.task3709_Pattern_Proxy.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3709_Pattern_Proxy.Solution" />
+    <configuration name="LogParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task37.task3709_Pattern_Proxy.*" />
+          <option name="PATTERN" value="com.javarush.task.task39.task3913.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.javarush.task.task39.task3913" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3913.LogParserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javarush.task.task37.task3714.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3714.Solution" />
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task37.task3714.*" />
+          <option name="PATTERN" value="com.javarush.task.task33.task3320_JUnit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.javarush.task.task33.task3320_JUnit" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3320_JUnit.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.com.javarush.task.task37.task3709_Pattern_Proxy.Solution" />
-      <item itemvalue="Application.com.javarush.task.task37.task3714.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="JUnit.LogParserTest" />
+      <item itemvalue="JUnit.UserTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogParserTest" />
+        <item itemvalue="JUnit.UserTest" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
@@ -471,6 +463,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task37/task3713_Chain_Of_Responsibility/Solution.java</url>
           <line>12</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javarush/task/task39/task3913/LogParserTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
