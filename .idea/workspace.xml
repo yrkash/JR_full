@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Lvl38.Beginning">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3807/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3808/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3808/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3809_Annotation_Reflection/IncorrectAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3809_Annotation_Reflection/JavaRushBankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3809_Annotation_Reflection/LongPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3809_Annotation_Reflection/ReflectionAnnotationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3809_Annotation_Reflection/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3810/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3810/Changelog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3810/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3810/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3810/Revision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3810/Solution.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Lvl38.Annotation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3811/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3811/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3812/Fox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3812/PrepareMyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3812/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3812/SomeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +24,8 @@
         <option value="JUnit4 Test Class" />
         <option value="JUnit3 Test Class" />
         <option value="Interface" />
-        <option value="AnnotationType" />
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -76,11 +68,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javarush.task.task38.task3812" />
+      <recent name="com.javarush.task.task38.task3811" />
       <recent name="com.javarush.task.task38.task3810" />
       <recent name="com.javarush.task.task38.task3809" />
       <recent name="com.javarush.task.task38.task3805" />
-      <recent name="com.javarush.task.task38.task3801" />
-      <recent name="com.javarush.task.task39.task3913" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Laptop\IdeaProjects\JR_full\src\main\java\com\javarush\task\task33\task3310\tests" />
@@ -101,11 +93,11 @@
       <recent name="com.javarush.task.task33.task3320_JUnit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javarush.task.task38.task3812" />
+      <recent name="com.javarush.task.task38.task3811" />
       <recent name="com.javarush.task.task38.task3810" />
       <recent name="com.javarush.task.task38.task3809" />
       <recent name="com.javarush.task.task38.task3808" />
-      <recent name="com.javarush.task.task38.task3807" />
-      <recent name="com.javarush.task.task38.task3805" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (2)">
@@ -123,11 +115,11 @@
       </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task38.task3810.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task38.task3812.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task38.task3810.*" />
+          <option name="PATTERN" value="com.javarush.task.task38.task3812.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,6 +147,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task38.task3809_Annotation_Reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task38.task3810_Annotation.Solution" />
+      <module name="JR_full" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task38.task3810_Annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,7 +215,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.VeryComplexClass (1)" />
@@ -371,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671455034247</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Lvl38.Annotation">
+      <created>1671543741303</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671543741303</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +431,8 @@
     <MESSAGE value="Patterns: Facade, Template method, Chain of Responsibility" />
     <MESSAGE value="LogParser. Implemented DataQuery, EventQuery, UserQuery." />
     <MESSAGE value="Lvl38.Beginning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lvl38.Beginning" />
+    <MESSAGE value="Lvl38.Annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lvl38.Annotation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
