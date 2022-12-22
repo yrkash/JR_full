@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Lvl38.Annotation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3811/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3811/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3812/Fox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3812/PrepareMyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3812/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task38/task3812/SomeTest.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Lvl38.Annotation+">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Strategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +20,10 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="JUnit3 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -382,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671543741303</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Lvl38.Annotation+">
+      <created>1671631506211</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671631506211</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +436,8 @@
     <MESSAGE value="LogParser. Implemented DataQuery, EventQuery, UserQuery." />
     <MESSAGE value="Lvl38.Beginning" />
     <MESSAGE value="Lvl38.Annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lvl38.Annotation" />
+    <MESSAGE value="Lvl38.Annotation+" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lvl38.Annotation+" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
