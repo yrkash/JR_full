@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Lvl38.Annotation+">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Strategy.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="LogParser. added tests in LogParserTest.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/HHStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/vo/Vacancy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Provider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +24,8 @@
         <option value="JUnit3 Test Class" />
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,7 +99,20 @@
       <recent name="com.javarush.task.task38.task3808" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Aggregator">
+    <configuration name="Aggregator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task28.task2810.Aggregator" />
+      <module name="JR_full" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task28.task2810.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task38.task3808.Solution" />
       <module name="JR_full" />
@@ -117,20 +132,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task38.task3812.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task38.task3801.Solution" />
-      <module name="JR_full" />
-      <option name="PROGRAM_PARAMETERS" value="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task38.task3801.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,7 +205,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Aggregator" />
       <item itemvalue="Application.VeryComplexClass" />
       <item itemvalue="Application.VeryComplexClass (1)" />
       <item itemvalue="Application.Solution (1)" />
@@ -212,6 +213,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aggregator" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.VeryComplexClass (1)" />
