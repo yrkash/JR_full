@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Aggregator (html). HHStrategy + examples in directory example_JSOUP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/example_JSOUP/HTMLParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/example_JSOUP/ListLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/login.html" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Lvl21-30 added">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/HHStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/HHStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Provider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/vo/Vacancy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/vo/Vacancy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +23,8 @@
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -52,6 +45,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -71,16 +65,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.javarush.task.task38.task3812" />
@@ -118,7 +107,7 @@
       <recent name="com.javarush.task.task38.task3808" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HTMLParser (1)">
+  <component name="RunManager" selected="Application.Aggregator">
     <configuration name="Aggregator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task28.task2810.Aggregator" />
       <module name="JR_full" />
@@ -205,15 +194,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Aggregator" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.HTMLParser" />
-      <item itemvalue="Application.HTMLParser (1)" />
       <item itemvalue="Application.ListLinks" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HTMLParser (1)" />
         <item itemvalue="Application.Aggregator" />
         <item itemvalue="Application.ListLinks" />
         <item itemvalue="Application.HTMLParser" />
@@ -526,19 +514,9 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Controller.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Provider.java</url>
           <line>19</line>
           <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/HHStrategy.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
