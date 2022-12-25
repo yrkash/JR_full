@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Aggregator. // in HHStrategy.java needs for validation in JR">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/HtmlView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/View.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Aggregator. Changes in Model, Controller. New file View.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/HtmlView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/HtmlView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +21,9 @@
         <option value="JUnit3 Test Class" />
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -196,11 +193,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Aggregator" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.HTMLParser" />
       <item itemvalue="Application.ListLinks" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
@@ -385,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671830821006</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Aggregator. Changes in Model, Controller. New file View.java">
+      <created>1671912653200</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1671912653200</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +442,8 @@
     <MESSAGE value="Lvl38.Annotation+" />
     <MESSAGE value="Aggregator (html). HHStrategy + examples in directory example_JSOUP" />
     <MESSAGE value="Aggregator. // in HHStrategy.java needs for validation in JR" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggregator. // in HHStrategy.java needs for validation in JR" />
+    <MESSAGE value="Aggregator. Changes in Model, Controller. New file View.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggregator. Changes in Model, Controller. New file View.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -519,9 +524,18 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/model/Provider.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="32" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/HtmlView.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Controller.java</url>
+          <line>17</line>
+          <properties class="com.javarush.task.task28.task2810.Controller" method="onCitySelect">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
