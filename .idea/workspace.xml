@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Aggregator. Changes in Model, Controller. New file View.java">
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Aggregator. task14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/HtmlView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/HtmlView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -389,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671912653200</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Aggregator. task14">
+      <created>1671997214140</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671997214140</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +449,8 @@
     <MESSAGE value="Aggregator (html). HHStrategy + examples in directory example_JSOUP" />
     <MESSAGE value="Aggregator. // in HHStrategy.java needs for validation in JR" />
     <MESSAGE value="Aggregator. Changes in Model, Controller. New file View.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggregator. Changes in Model, Controller. New file View.java" />
+    <MESSAGE value="Aggregator. task14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggregator. task14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -525,8 +532,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/HtmlView.java</url>
-          <line>16</line>
+          <line>22</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/HtmlView.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/HtmlView.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Controller.java</url>
