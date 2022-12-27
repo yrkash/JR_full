@@ -1,7 +1,7 @@
-package com.javarush.task.task28.task2810.view;
+package com.javarush.task.task28.task2810_HTML_JSOUP.view;
 
-import com.javarush.task.task28.task2810.Controller;
-import com.javarush.task.task28.task2810.vo.Vacancy;
+import com.javarush.task.task28.task2810_HTML_JSOUP.Controller;
+import com.javarush.task.task28.task2810_HTML_JSOUP.vo.Vacancy;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -15,6 +15,7 @@ import java.util.List;
 public class HtmlView implements View{
 
 //    private final String filePath = "./4.JavaCollections/src/" + this.getClass().getPackage().getName().replaceAll("[.]", "/") + "/vacancies.html";
+//    private final String filePath = "c://Users/Laptop/IdeaProjects/JR_full/src/main/java/" + this.getClass().getPackage().getName().replaceAll("[.]", "/") + "/vacancies.html";
     private final String filePath = "c:/temp/vacancies.html";
     private Controller controller;
     @Override
@@ -33,7 +34,7 @@ public class HtmlView implements View{
     }
 
     public void userCitySelectEmulationMethod() {
-        controller.onCitySelect("Нижний Новгород");
+        controller.onCitySelect("moscow");
     }
 
     private String getUpdatedFileContent(List<Vacancy> vacancyList) {

@@ -1,11 +1,10 @@
-package com.javarush.task.task28.task2810.example_JSOUP;
+package com.javarush.task.task28.task2810_HTML_JSOUP.example_JSOUP;
 
 import java.io.File;
 import java.io.IOException;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 
 /**
  * Java Program to parse/read HTML documents from File using Jsoup library.

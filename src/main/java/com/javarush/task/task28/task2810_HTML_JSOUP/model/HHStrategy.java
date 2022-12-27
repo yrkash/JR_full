@@ -1,6 +1,6 @@
-package com.javarush.task.task28.task2810.model;
+package com.javarush.task.task28.task2810_HTML_JSOUP.model;
 
-import com.javarush.task.task28.task2810.vo.Vacancy;
+import com.javarush.task.task28.task2810_HTML_JSOUP.vo.Vacancy;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

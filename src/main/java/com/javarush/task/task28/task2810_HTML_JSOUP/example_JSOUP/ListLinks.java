@@ -1,4 +1,4 @@
-package com.javarush.task.task28.task2810.example_JSOUP;
+package com.javarush.task.task28.task2810_HTML_JSOUP.example_JSOUP;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

@@ -1,4 +1,4 @@
-package com.javarush.task.task28.task2810.vo;
+package com.javarush.task.task28.task2810_HTML_JSOUP.vo;
 
 import java.util.Objects;
 

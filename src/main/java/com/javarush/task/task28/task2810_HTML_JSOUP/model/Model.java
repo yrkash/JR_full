@@ -1,7 +1,7 @@
-package com.javarush.task.task28.task2810.model;
+package com.javarush.task.task28.task2810_HTML_JSOUP.model;
 
-import com.javarush.task.task28.task2810.view.View;
-import com.javarush.task.task28.task2810.vo.Vacancy;
+import com.javarush.task.task28.task2810_HTML_JSOUP.view.View;
+import com.javarush.task.task28.task2810_HTML_JSOUP.vo.Vacancy;
 
 import java.util.ArrayList;
 import java.util.List;
