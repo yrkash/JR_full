@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Aggregator">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Lvl39.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3905/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3905/PhotoPaint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3905/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3906/ElectricPowerSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3906/LightBulb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3906/SecuritySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3906/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3906/Switchable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/Eater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/LazyPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/NormalWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/RobotWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/Sleeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3911/Software.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3911/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Aggregator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/HtmlView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/view/HtmlView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810_HTML_JSOUP/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810_HTML_JSOUP/Aggregator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810_HTML_JSOUP/model/HHStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810_HTML_JSOUP/model/HHStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +38,9 @@
         <option value="JUnit3 Test Class" />
         <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -65,18 +81,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../apache-tomcat-9.0.70/lib/jsp-api.jar" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javarush.task.task39.task3911" />
+      <recent name="com.javarush.task.task39.task3906" />
       <recent name="com.javarush.task.task38.task3812" />
       <recent name="com.javarush.task.task38.task3811" />
       <recent name="com.javarush.task.task38.task3810" />
-      <recent name="com.javarush.task.task38.task3809" />
-      <recent name="com.javarush.task.task38.task3805" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Laptop\IdeaProjects\JR_full\src\main\java\com\javarush\task\task33\task3310\tests" />
@@ -100,20 +114,20 @@
       <recent name="com.javarush.task.task33.task3320_JUnit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.javarush.task.task38.task3812" />
-      <recent name="com.javarush.task.task38.task3811" />
-      <recent name="com.javarush.task.task38.task3810" />
-      <recent name="com.javarush.task.task38.task3809" />
-      <recent name="com.javarush.task.task38.task3808" />
+      <recent name="com.javarush.task.task39.task3911" />
+      <recent name="com.javarush.task.task39.task3907" />
+      <recent name="com.javarush.task.task39.task3912" />
+      <recent name="com.javarush.task.task39.task3910" />
+      <recent name="com.javarush.task.task39.task3909" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Aggregator">
-    <configuration name="Aggregator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task28.task2810.Aggregator" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3910.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task28.task2810.example_JSOUP.*" />
+          <option name="PATTERN" value="com.javarush.task.task39.task3910.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HTMLParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HTMLParser" />
-      <module name="JR_full" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HTMLParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task28.task2810.example_JSOUP.HTMLParser" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3908.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task28.task2810.example_JSOUP.*" />
+          <option name="PATTERN" value="com.javarush.task.task39.task3908.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task28.task2810.example_JSOUP.ListLinks" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3912.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task28.task2810.example_JSOUP.*" />
+          <option name="PATTERN" value="com.javarush.task.task39.task3912.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task38.task3812.Solution" />
+    <configuration name="Solution (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3906.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task38.task3812.*" />
+          <option name="PATTERN" value="com.javarush.task.task39.task3906.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +175,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task38.task3810_Annotation.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3911.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task38.task3810_Annotation.*" />
+          <option name="PATTERN" value="com.javarush.task.task39.task3911.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,19 +200,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/../apache-tomcat-9.0.70/lib/jsp-api.jar" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\y.mitryasov\IdeaProjects\JR_full" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Aggregator" />
-      <item itemvalue="Application.HTMLParser" />
-      <item itemvalue="Application.ListLinks" />
-      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="JAR Application.Unnamed" />
+      <item itemvalue="Application.Solution (6)" />
       <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Aggregator" />
-        <item itemvalue="Application.ListLinks" />
-        <item itemvalue="Application.HTMLParser" />
-        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (6)" />
+        <item itemvalue="Application.Solution (5)" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +412,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671997214140</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Lvl39. Beginning">
+      <created>1672235370367</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1672235370367</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Lvl39.">
+      <created>1672319997710</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1672319997710</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,8 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Init commit.&#10;Start issue Tetris on 32 level" />
-    <MESSAGE value="221115 home" />
     <MESSAGE value="Calculator is done." />
     <MESSAGE value="Merge commit" />
     <MESSAGE value="Logger, Soft&amp; WeakReference" />
@@ -452,7 +479,9 @@
     <MESSAGE value="Aggregator. // in HHStrategy.java needs for validation in JR" />
     <MESSAGE value="Aggregator. Changes in Model, Controller. New file View.java" />
     <MESSAGE value="Aggregator. task14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggregator. task14" />
+    <MESSAGE value="Lvl39. Beginning" />
+    <MESSAGE value="Lvl39." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lvl39." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -547,6 +576,26 @@
           <line>52</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810_HTML_JSOUP/model/HabrStrategy.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3908/Solution.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3911/Software.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3911/Software.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Controller.java</url>
           <line>17</line>
@@ -558,11 +607,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="document" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JR_full$UserTest.ic" NAME="UserTest Coverage Results" MODIFIED="1669549626198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
