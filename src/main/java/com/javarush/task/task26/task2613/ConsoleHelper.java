@@ -59,5 +59,21 @@ public class ConsoleHelper {
         return validTwoDigits;
     }
 
+    public static Operation askOperation() {
+        writeMessage("Please insert number of Operation (1 - INFO, 2 - DEPOSIT, 3 - WITHDRAW, 4 - EXIT)");
+        int number;
+        Operation operation;
+        while (true) {
+            try {
+                number = Integer.parseInt(readString());
+                operation = Operation.getAllowableOperationByOrdinal(number);
+                break;
+            } catch (IllegalArgumentException e) {
+                writeMessage("Please insert number of Operation (1 - INFO, 2 - DEPOSIT, 3 - WITHDRAW, 4 - EXIT)");
+            }
+        }
+        return operation;
+    }
+
 
 }
