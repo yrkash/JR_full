@@ -4,27 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Lvl39.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3905/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3905/PhotoPaint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3905/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3906/ElectricPowerSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3906/LightBulb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3906/SecuritySystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3906/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3906/Switchable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/Eater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/LazyPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/NormalWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/RobotWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/Sleeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3907/workers/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3911/Software.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3911/Solution.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Aggregator. HtmlView completed. All vacancies show in auto-generated vacancies.html">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CashMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/ConsoleHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/exception/InterruptOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/exception/NotEnoughMoneyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810_HTML_JSOUP/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810_HTML_JSOUP/Aggregator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810_HTML_JSOUP/model/HHStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810_HTML_JSOUP/model/HHStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +25,10 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="JUnit3 Test Class" />
-        <option value="Enum" />
         <option value="AnnotationType" />
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -121,13 +110,13 @@
       <recent name="com.javarush.task.task39.task3909" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3910.Solution" />
+  <component name="RunManager" selected="Application.CashMachine">
+    <configuration name="CashMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task26.task2613.CashMachine" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task39.task3910.*" />
+          <option name="PATTERN" value="com.javarush.task.task26.task2613.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3908.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3910.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task39.task3908.*" />
+          <option name="PATTERN" value="com.javarush.task.task39.task3910.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,20 +196,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.CashMachine" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="JAR Application.Unnamed" />
       <item itemvalue="Application.Solution (6)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="JAR Application.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CashMachine" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (6)" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
