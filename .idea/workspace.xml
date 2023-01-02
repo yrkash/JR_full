@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="CashMachine. Beginning">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/CommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/DepositCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/InfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/WithdrawCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="CashMachine. Realized DepositCommand, InfoCommand.&#10;Improved CurrencyManipulator, CurrencyManipulatorFactory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CashMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CashMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/ConsoleHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/ConsoleHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulatorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/CommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/CommandExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/DepositCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/DepositCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/ExitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/WithdrawCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/WithdrawCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -426,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672576065150</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="CashMachine. Realized DepositCommand, InfoCommand.&#10;Improved CurrencyManipulator, CurrencyManipulatorFactory">
+      <created>1672599260214</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1672599260214</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge commit" />
     <MESSAGE value="Logger, Soft&amp; WeakReference" />
     <MESSAGE value="Calculator with comments for JR" />
     <MESSAGE value="Level 34 completed" />
@@ -481,7 +484,8 @@
     <MESSAGE value="Lvl39. Beginning" />
     <MESSAGE value="Lvl39." />
     <MESSAGE value="CashMachine. Beginning" />
-    <option name="LAST_COMMIT_MESSAGE" value="CashMachine. Beginning" />
+    <MESSAGE value="CashMachine. Realized DepositCommand, InfoCommand.&#10;Improved CurrencyManipulator, CurrencyManipulatorFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="CashMachine. Realized DepositCommand, InfoCommand.&#10;Improved CurrencyManipulator, CurrencyManipulatorFactory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,6 +599,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task39/task3911/Software.java</url>
           <line>32</line>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulator.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulator.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulator.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulator.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulator.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CurrencyManipulator.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/javarush/task/task28/task2810/Controller.java</url>

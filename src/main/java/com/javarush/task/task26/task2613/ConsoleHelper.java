@@ -1,5 +1,7 @@
 package com.javarush.task.task26.task2613;
 
+import com.javarush.task.task26.task2613.exception.InterruptOperationException;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,11 +14,12 @@ public class ConsoleHelper {
         System.out.println(message);
     }
 
-    public static String readString() {
+    public static String readString() throws InterruptOperationException {
         String result = new String();
         while (true) {
             try {
                 result = bis.readLine();
+                if (result.toUpperCase().equals("EXIT")) throw new InterruptOperationException();
                 break;
             } catch (IOException ignore) {
             }
@@ -24,7 +27,7 @@ public class ConsoleHelper {
         return result;
     }
 
-    public static String askCurrencyCode() {
+    public static String askCurrencyCode() throws InterruptOperationException {
         writeMessage("Please insert currencyCode (only 3 symbols)");
         String result = new String();
         while (true) {
@@ -38,7 +41,7 @@ public class ConsoleHelper {
         return result.toUpperCase();
     }
 
-    public static String[] getValidTwoDigits(String currencyCode) {
+    public static String[] getValidTwoDigits(String currencyCode) throws InterruptOperationException {
         writeMessage("Please insert denomination and count");
         String denomination;
         String count;
@@ -59,7 +62,7 @@ public class ConsoleHelper {
         return validTwoDigits;
     }
 
-    public static Operation askOperation() {
+    public static Operation askOperation() throws InterruptOperationException {
         writeMessage("Please insert number of Operation (1 - INFO, 2 - DEPOSIT, 3 - WITHDRAW, 4 - EXIT)");
         int number;
         Operation operation;
