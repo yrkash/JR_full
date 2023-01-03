@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Aggregator completed.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javarush/task/task26/task2613/CurrencyManipulatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="CashMachine. LoginCommand + Tests for withdrawAmount method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/resources/verifiedCards.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/common_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/deposit_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/exit_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/info_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/login_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/withdraw_en.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CashMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/CashMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/CommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/CommandExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/ConsoleHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/ConsoleHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/DepositCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/DepositCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/ExitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/InfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/InfoCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/LoginCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/WithdrawCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task26/task2613/command/WithdrawCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +79,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "last_opened_file_path": "C:/Users/Laptop/IdeaProjects/JR_full/src/main/resources"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -83,6 +94,8 @@
       <recent name="com.javarush.task.task38.task3810" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop\IdeaProjects\JR_full\src\main\resources" />
+      <recent name="C:\Users\Laptop\IdeaProjects\JR_full\src\main\java\com\javarush\task\task26\task2613\resources" />
       <recent name="C:\Users\Laptop\IdeaProjects\JR_full\src\main\java\com\javarush\task\task33\task3310\tests" />
       <recent name="C:\Users\y.mitryasov\IdeaProjects\JR_full\src\main\java\com\javarush\task\task37\task3702\female" />
       <recent name="C:\Users\Laptop\IdeaProjects\JR_full\src\main\java\com\javarush\task\task34\task3412" />
@@ -90,6 +103,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop\IdeaProjects\JR_full\src\main\resources" />
     </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="com.javarush.task.task28.task2810.model.HHStrategy" />
@@ -243,6 +259,7 @@
       <workItem from="1670702144690" duration="609000" />
       <workItem from="1670744935964" duration="58000" />
       <workItem from="1670766549006" duration="9256000" />
+      <workItem from="1672732637897" duration="16861000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit.&#10;Start issue Tetris on 32 level">
       <created>1668353621489</created>
@@ -433,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672599260214</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="CashMachine. LoginCommand + Tests for withdrawAmount method">
+      <created>1672698169742</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1672698169742</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Logger, Soft&amp; WeakReference" />
     <MESSAGE value="Calculator with comments for JR" />
     <MESSAGE value="Level 34 completed" />
     <MESSAGE value="new skill - JUnit (task3320)" />
@@ -476,7 +499,8 @@
     <MESSAGE value="Lvl39." />
     <MESSAGE value="CashMachine. Beginning" />
     <MESSAGE value="CashMachine. Realized DepositCommand, InfoCommand.&#10;Improved CurrencyManipulator, CurrencyManipulatorFactory" />
-    <option name="LAST_COMMIT_MESSAGE" value="CashMachine. Realized DepositCommand, InfoCommand.&#10;Improved CurrencyManipulator, CurrencyManipulatorFactory" />
+    <MESSAGE value="CashMachine. LoginCommand + Tests for withdrawAmount method" />
+    <option name="LAST_COMMIT_MESSAGE" value="CashMachine. LoginCommand + Tests for withdrawAmount method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

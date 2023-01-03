@@ -5,8 +5,12 @@ import com.javarush.task.task26.task2613.exception.InterruptOperationException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ResourceBundle;
 
 public class ConsoleHelper {
+
+    private static ResourceBundle res = ResourceBundle.getBundle("common");
+//    private static ResourceBundle res = ResourceBundle.getBundle(CashMachine.class.getPackage().getName() + ".resources.common");
 
     private static BufferedReader bis = new BufferedReader(new InputStreamReader(System.in));
 
@@ -19,7 +23,10 @@ public class ConsoleHelper {
         while (true) {
             try {
                 result = bis.readLine();
-                if (result.toUpperCase().equals("EXIT")) throw new InterruptOperationException();
+                if (result.toUpperCase().equals("EXIT")) {
+//                    writeMessage(res.getString("the.end"));
+                    throw new InterruptOperationException();
+                }
                 break;
             } catch (IOException ignore) {
             }
@@ -28,12 +35,12 @@ public class ConsoleHelper {
     }
 
     public static String askCurrencyCode() throws InterruptOperationException {
-        writeMessage("Please insert currencyCode (only 3 symbols)");
+        writeMessage(res.getString("choose.currency.code"));
         String result = new String();
         while (true) {
             result = readString();
             if (result.length() != 3) {
-                writeMessage("Please insert currencyCode (only 3 symbols)");
+                writeMessage(res.getString("choose.currency.code"));
             } else {
                 break;
             }
@@ -42,7 +49,7 @@ public class ConsoleHelper {
     }
 
     public static String[] getValidTwoDigits(String currencyCode) throws InterruptOperationException {
-        writeMessage("Please insert denomination and count");
+        writeMessage(String.format(res.getString("choose.denomination.and.count.format"),currencyCode));
         String denomination;
         String count;
         String result;
@@ -50,7 +57,7 @@ public class ConsoleHelper {
         while (true) {
             result = readString();
             if (!result.matches("^[1-9]\\d*\\s[1-9]\\d*")) {
-                writeMessage("Please insert denomination and count");
+                writeMessage(String.format(res.getString("choose.denomination.and.count.format"),currencyCode));
             } else {
                 denomination = result.split(" ")[0];
                 count = result.split(" ")[1];
@@ -63,7 +70,11 @@ public class ConsoleHelper {
     }
 
     public static Operation askOperation() throws InterruptOperationException {
-        writeMessage("Please insert number of Operation (1 - INFO, 2 - DEPOSIT, 3 - WITHDRAW, 4 - EXIT)");
+        writeMessage(res.getString("choose.operation"));
+        ConsoleHelper.writeMessage("\t 1 - " + res.getString("operation.INFO"));
+        ConsoleHelper.writeMessage("\t 2 - " + res.getString("operation.DEPOSIT"));
+        ConsoleHelper.writeMessage("\t 3 - " + res.getString("operation.WITHDRAW"));
+        ConsoleHelper.writeMessage("\t 4 - " + res.getString("operation.EXIT"));
         int number;
         Operation operation;
         while (true) {
@@ -72,10 +83,14 @@ public class ConsoleHelper {
                 operation = Operation.getAllowableOperationByOrdinal(number);
                 break;
             } catch (IllegalArgumentException e) {
-                writeMessage("Please insert number of Operation (1 - INFO, 2 - DEPOSIT, 3 - WITHDRAW, 4 - EXIT)");
+                writeMessage(res.getString("choose.operation"));
             }
         }
         return operation;
+    }
+
+    public static void printExitMessage() {
+        ConsoleHelper.writeMessage(res.getString("the.end"));
     }
 
 
