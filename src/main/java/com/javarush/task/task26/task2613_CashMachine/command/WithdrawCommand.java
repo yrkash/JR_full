@@ -1,10 +1,10 @@
-package com.javarush.task.task26.task2613.command;
+package com.javarush.task.task26.task2613_CashMachine.command;
 
-import com.javarush.task.task26.task2613.ConsoleHelper;
-import com.javarush.task.task26.task2613.CurrencyManipulator;
-import com.javarush.task.task26.task2613.CurrencyManipulatorFactory;
-import com.javarush.task.task26.task2613.exception.InterruptOperationException;
-import com.javarush.task.task26.task2613.exception.NotEnoughMoneyException;
+import com.javarush.task.task26.task2613_CashMachine.ConsoleHelper;
+import com.javarush.task.task26.task2613_CashMachine.CurrencyManipulator;
+import com.javarush.task.task26.task2613_CashMachine.CurrencyManipulatorFactory;
+import com.javarush.task.task26.task2613_CashMachine.exception.InterruptOperationException;
+import com.javarush.task.task26.task2613_CashMachine.exception.NotEnoughMoneyException;
 
 import java.util.*;
 

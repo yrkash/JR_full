@@ -1,8 +1,6 @@
-package com.javarush.task.task26.task2613;
+package com.javarush.task.task26.task2613_CashMachine;
 
-import com.javarush.task.task26.task2613.exception.NotEnoughMoneyException;
-import com.javarush.task.task33.task3320_JUnit.Sex;
-import com.javarush.task.task33.task3320_JUnit.User;
+import com.javarush.task.task26.task2613_CashMachine.exception.NotEnoughMoneyException;
 import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Before;

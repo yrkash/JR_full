@@ -1,4 +1,4 @@
-package com.javarush.task.task26.task2613;
+package com.javarush.task.task26.task2613_CashMachine;
 
 import java.util.Collection;
 import java.util.HashMap;

@@ -1,6 +1,6 @@
-package com.javarush.task.task26.task2613;
+package com.javarush.task.task26.task2613_CashMachine;
 
-import com.javarush.task.task26.task2613.exception.NotEnoughMoneyException;
+import com.javarush.task.task26.task2613_CashMachine.exception.NotEnoughMoneyException;
 
 import java.util.*;
 

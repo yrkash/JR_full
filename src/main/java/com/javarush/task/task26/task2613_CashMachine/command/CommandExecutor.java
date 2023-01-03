@@ -1,7 +1,7 @@
-package com.javarush.task.task26.task2613.command;
+package com.javarush.task.task26.task2613_CashMachine.command;
 
-import com.javarush.task.task26.task2613.Operation;
-import com.javarush.task.task26.task2613.exception.InterruptOperationException;
+import com.javarush.task.task26.task2613_CashMachine.Operation;
+import com.javarush.task.task26.task2613_CashMachine.exception.InterruptOperationException;
 
 import java.util.HashMap;
 import java.util.Map;

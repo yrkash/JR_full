@@ -1,4 +1,4 @@
-package com.javarush.task.task26.task2613;
+package com.javarush.task.task26.task2613_CashMachine;
 
 public enum Operation {
     LOGIN, INFO, DEPOSIT, WITHDRAW, EXIT;
