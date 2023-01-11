@@ -39,3 +39,5 @@ build/
 .DS_Store
 /.idea/dataSources.local.xml
 /.idea/dataSources/
+/lib/jsoup-1.9.2.jar
+/lib/jsoup-1.9.2-sources.jar
