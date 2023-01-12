@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Lvl39.-">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task40/task4001/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task40/task4002/Solution.java" afterDir="false" />
+    <list default="true" id="351aef01-d3b1-4393-bb17-f348883eed12" name="Changes" comment="Lvl40. Beginning (Http POST)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task40/task4010/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/task/task40/task4011/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,14 +103,14 @@
       <recent name="com.javarush.task.task33.task3320_JUnit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javarush.task.task40.task4010" />
       <recent name="com.javarush.task.task40.task4002" />
       <recent name="com.javarush.task.task39.task3911" />
       <recent name="com.javarush.task.task39.task3907" />
       <recent name="com.javarush.task.task39.task3912" />
-      <recent name="com.javarush.task.task39.task3910" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task40.task4002.Solution" />
       <module name="JR_full" />
@@ -125,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3912.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task40.task4011.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task39.task3912.*" />
+          <option name="PATTERN" value="com.javarush.task.task40.task4011.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task39.task3906.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task40.task4010.Solution" />
       <module name="JR_full" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task39.task3906.*" />
+          <option name="PATTERN" value="com.javarush.task.task40.task4010.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,20 +211,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (5)" />
-      <item itemvalue="Application.Solution (6)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="JAR Application.Unnamed" />
       <item itemvalue="JUnit.CurrencyManipulatorTest" />
-      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.CurrencyManipulatorTest" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (6)" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672766794018</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Lvl40. Beginning (Http POST)">
+      <created>1673443720413</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1673443720413</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Level 34 completed" />
     <MESSAGE value="new skill - JUnit (task3320)" />
     <MESSAGE value="merge commit" />
     <MESSAGE value="Pattern Factory Method" />
@@ -503,7 +508,8 @@
     <MESSAGE value="CashMachine. Realized DepositCommand, InfoCommand.&#10;Improved CurrencyManipulator, CurrencyManipulatorFactory" />
     <MESSAGE value="CashMachine. LoginCommand + Tests for withdrawAmount method" />
     <MESSAGE value="CashMachine. Completed. ResourceBundle (properties)" />
-    <option name="LAST_COMMIT_MESSAGE" value="CashMachine. Completed. ResourceBundle (properties)" />
+    <MESSAGE value="Lvl40. Beginning (Http POST)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lvl40. Beginning (Http POST)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
